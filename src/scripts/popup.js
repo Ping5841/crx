@@ -31,10 +31,12 @@ $(function () {
 
 
 function onGetTalentInfo (res) {
-  $('#text').text(JSON.stringify(res))
+  $('#text').text(JSON.stringify(res)).show()
+  $('iframe').hide()
 }
 
 function onGetHTML (html) {
+  $('#text').hide()
   $('iframe').attr('srcdoc', html).show()
 }
 

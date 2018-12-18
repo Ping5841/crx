@@ -329,11 +329,11 @@ function getHTML (phone, ) {
     '<meta name="viewport" content="width=device-width, initial-scale=1.0">' +
     '<meta http-equiv="X-UA-Compatible" content="ie=edge" >' +
     '<title>简历</title>' +
-    '<link href="https://github.com/Ping5841/crx/blob/master/test_page/zp/base.css" rel="stylesheet">' +
-    '<link href="https://github.com/Ping5841/crx/blob/master/test_page/zp/index.css" rel="stylesheet">' +
-    '<link href="https://github.com/Ping5841/crx/blob/master/test_page/zp/normal.css" rel="stylesheet">' +
-    '<link href="https://github.com/Ping5841/crx/blob/master/test_page/zp/resumepreview.css" rel="stylesheet">' +
-    '<link href="https://github.com/Ping5841/crx/blob/master/test_page/zp/HtoCResume.css" rel="stylesheet">' +
+    '<link href="https://raw.githack.com/Ping5841/crx/master/test_page/zp/base.css" rel="stylesheet">' +
+    '<link href="https://raw.githack.com/Ping5841/crx/master/test_page/zp/index.css" rel="stylesheet">' +
+    '<link href="https://raw.githack.com/Ping5841/crx/master/test_page/zp/normal.css" rel="stylesheet">' +
+    '<link href="https://raw.githack.com/Ping5841/crx/master/test_page/zp/resumepreview.css" rel="stylesheet">' +
+    '<link href="https://raw.githack.com/Ping5841/crx/master/test_page/zp/HtoCResume.css" rel="stylesheet">' +
     '<style> body {font-size: 14px;} .lx2-resume { margin: auto; }</style>' +
     '</head >' +
     '<body>' +

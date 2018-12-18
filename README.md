@@ -6,16 +6,22 @@
 - 打开test_page/zp.html
 - 点击右上角插件按钮 查看效果
 
+![popup](./imgs/img3.png)
+
+ps: 对url做了验证， 只有打开xxxx/zp.html 才可以点击插件按钮
+
 ---
 
 ### 最近帮客户做了一个抓简历相关的插件， 这里对chrome插件 做个相关的demo
 
 - manifest.json 这个文件是用来告诉chrome 插件的相关配置 其中主要有3个点 
   - page_action 配置点击插件按钮弹出的html页面
+
   ![popup](./imgs/img1.png)
   
   - background 配置常驻后台的js代码， 顾名思义这里的代码是跑在后台的，它随着浏览器的打开而打开，随着浏览器的关闭而关闭，一般用来做监听事件和全局代码等等, 可以从下面这里查看console输出
-  ![background](./imgs/img2.png)
+
+ ![background](./imgs/img2.png)
 
   - content_scripts 向指定页面注入的js
   ```
@@ -44,7 +50,7 @@
       ],
     }
   ```
-  值得注意的是，因为安全相关这里的注入的 js 和 原始页面的js是不在一个作用域下，只有dom是共享的， 即： 在注入的js里面 访问不到 原始页面的全局变量
+  值得注意的是，因为安全相关这里的注入的js和原始页面的js是不在一个作用域下，只有dom是共享的， 即： 在注入的js里面 访问不到原始页面的全局变量
   ```
   // raw.js 正常加载的js
   window.foo = 'hello'
