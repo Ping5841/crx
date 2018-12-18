@@ -1,0 +1,309 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*H端红心样式*/
+/*红心居左*/
+.h-heart-img {
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+	background-image:url(https://image4.highpin.cn/Image/Shared/grade/h-heart.gif);
+}
+/*红心居中*/
+.h-heart-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+	background-image:url(https://image1.highpin.cn/Image/Shared/grade/h-heart-center.gif);
+}
+
+
+/*C端红心样式*/
+/*红心居左*/
+.heart-img {
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	background-image: url(https://image2.highpin.cn/Image/Shared/grade/heart.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+	
+}
+/*红心居中*/
+.heart-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	background-image: url(https://image4.highpin.cn/Image/Shared/grade/heart-center.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+	margin-left: 10px;
+}
+/*红心的数量*/
+.heart1 {
+	background-position: 0 0;
+}
+.heart2 {
+	background-position: 0 -22px;
+}
+.heart3 {
+	background-position: 0 -44px;
+}
+.heart4 {
+	background-position: 0 -66px;
+}
+.heart5 {
+	background-position: 0 -88px;
+}
+
+/*C端皇冠 黄色修改为蓝色*/
+/*皇冠居中*/
+.crown-img {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+   
+	background-image:url(https://image1.highpin.cn/Image/Shared/grade/h-crown.gif);
+}
+/*皇冠居中*/
+.crown-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image2.highpin.cn/Image/Shared/grade/h-crown-center.gif);
+}
+/*H端皇冠 蓝色 修改为黄色*/
+/*皇冠居左*/
+.h-crown-img {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+   
+	background-image:url(https://image4.highpin.cn/Image/Shared/grade/crown.gif);
+}
+/*皇冠居中*/
+.h-crown-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image1.highpin.cn/Image/Shared/grade/crown-center.gif);
+}
+/*皇冠数量*/
+.crown1 {
+	background-position: 0 2px;
+}
+.crown2 {
+	background-position: 0 -22px;
+}
+.crown3 {
+	background-position: 0 -46px;
+}
+.crown4 {
+	background-position: 0 -70px;
+}
+.crown5 {
+	background-position: 0 -94px;
+}
+
+
+
+/*C端higher皇冠 */
+/*higher皇冠皇冠居中*/
+.highercrown-img {
+	display: inline-block;
+	height: 20px;
+	width: 104px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+   
+	background-image:url(https://image2.highpin.cn/Image/Shared/grade/higher-crown.gif);
+}
+/*higher皇冠*/
+.highercrown-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 104px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image4.highpin.cn/Image/Shared/grade/higher-crown-center.gif);
+}
+/*H端higher皇冠 蓝色 修改为黄色*/
+/*higher皇冠皇冠居左*/
+.h-highercrown-img {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+   
+	background-image:url(https://image1.highpin.cn/Image/Shared/grade/h-higher-crown.gif);
+}
+/*higher皇冠居中*/
+.h-highercrown-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image2.highpin.cn/Image/Shared/grade/h-higher-crown-center.gif);
+}
+
+
+.highercrown1 {
+	background-position: 0 0px;
+}
+.highercrown2 {
+	background-position: 0 -22px;
+}
+.highercrown3 {
+	background-position: 0 -44px;
+}
+.highercrown4 {
+	background-position: 0 -66px;
+}
+.highercrown5 {
+	background-position: 0 -88px;
+}
+
+
+/*C端钻石 蓝色*/
+
+/*钻石居左*/
+.diamond-img {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+   
+	background-image:url(https://image4.highpin.cn/Image/Shared/grade/diamond.gif);
+}
+/*钻石居中*/
+.diamond-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image1.highpin.cn/Image/Shared/grade/diamond-center.gif);
+}
+/*H端钻石 黄色*/
+/*钻石居左*/
+.h-diamond-img {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    
+	background-image:url(https://image2.highpin.cn/Image/Shared/grade/h-diamond.gif);
+}
+/*钻石居中*/
+.h-diamond-img-center {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+    margin-left: 10px;
+	background-image:url(https://image4.highpin.cn/Image/Shared/grade/h-diamond-center.gif);
+}
+/*钻石数量*/
+.diamond1 {
+	background-position: 0 2px;
+}
+.diamond2 {
+	background-position: 0 -20px;
+}
+.diamond3 {
+	background-position: 0 -42px;
+}
+.diamond4 {
+	background-position: 0 -64px;
+}
+.diamond5 {
+	background-position: 0 -86px;
+}
+
+/*态度和专业度的星星样式*/
+/*星星样式*/
+.c-post-star {
+	display: inline-block;
+	height: 20px;
+	width: 108px;
+	background-image: url(https://image1.highpin.cn/Image/Shared/grade/post-stars.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 0;
+	
+}
+.c-star0 {
+    background-position: 0 -110px;
+}
+.c-star1 {
+	background-position: 0 0;
+}
+.c-star2 {
+	background-position: 0 -22px;
+}
+.c-star3 {
+	background-position: 0 -44px;
+}
+.c-star4 {
+	background-position: 0 -66px;       
+}
+.c-star5 {
+	background-position: 0 -88px;
+}
+

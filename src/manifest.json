@@ -1,0 +1,43 @@
+{
+  "name": "简历抓取",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "简历抓取插件",
+  "homepage_url": "https://github.com/Ping5841",
+  "icons": {
+    "16": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "page_action": {
+    "default_title": "简历抓取",
+    "default_icon": "images/logo.png",
+    "default_popup": "html/popup.html"
+  },
+  "background":
+  {
+    "scripts": ["scripts/jquery-3.3.1.min.js","scripts/background.js"]
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/jquery-3.3.1.min.js",
+        "scripts/include.js",
+        "scripts/zp.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "declarativeContent",
+    "cookies"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}

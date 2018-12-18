@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+/*与他聊聊的 --大图片：尺寸（201*30）*/
+.chat-with-ta-big {
+    width: 201px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .chat-with-ta-big.online {
+        background: url(https://image4.highpin.cn/Image/Shared/chat/online-chat-with-ta-big.gif) no-repeat 0 0;
+    }
+
+    .chat-with-ta-big.offline {
+        background: url(https://image1.highpin.cn/Image/Shared/chat/offline-chat-with-ta-big.gif) no-repeat 0 0;
+    }
+
+/*与他聊聊的 --常规大小的图片：尺寸（142*30）*/
+.chat-with-ta-normal {
+    width: 142px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .chat-with-ta-normal.online {
+        background: url(https://image2.highpin.cn/Image/Shared/chat/online-chat-with-ta-normal.gif) no-repeat 0 0;
+    }
+
+    .chat-with-ta-normal.offline {
+        background: url(https://image4.highpin.cn/Image/Shared/chat/offline-chat-with-ta-normal.gif) no-repeat 0 0;
+    }
+
+/*与他聊聊的 --小的图片：尺寸（80*25）*/
+.chat-with-ta-small {
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+    .chat-with-ta-small.online {
+        background: url(https://image1.highpin.cn/Image/Shared/chat/online-chat-with-ta-small.gif) no-repeat 0 0;
+    }
+
+    .chat-with-ta-small.offline {
+        background: url(https://image2.highpin.cn/Image/Shared/chat/offline-chat-with-ta-small.gif) no-repeat 0 0;
+    }
+
+/*与他聊聊的 --小宽度的图片：尺寸（89*30）*/
+.chat-with-ta-small-width {
+    margin-top: 6px;
+    margin-left: 12px;
+    width: 89px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .chat-with-ta-small-width.online {
+        background: url(https://image4.highpin.cn/Image/Shared/chat/online-chat-with-ta-small-width.gif) no-repeat 0 0;
+    }
+
+    .chat-with-ta-small-width.offline {
+        background: url(https://image1.highpin.cn/Image/Shared/chat/offline-chat-with-ta-small-width.gif) no-repeat 0 0;
+    }
+.mt-5 {
+    margin-top: 5px;
+} 

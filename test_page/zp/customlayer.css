@@ -1,0 +1,149 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.custom_pop_layer {/*width:420px;*/height:auto;margin:0px auto;}
+.custom_pop_layer_nowidth {width:auto;height:auto;margin:0px auto;}
+
+.customlayermain {width:360px;height:auto;background-color:#939393;margin:0px auto;}
+.customlayertitle  {width:360px;height:9px;margin:0px auto;overflow:hidden;}
+.customlayertitle_c {width:342px;height:9px;float:left;background-color:#939393;}
+.customlayerbody {width:340px;height:auto;background-color:#ffffff;margin:0px auto;border:#686868 1px solid;overflow:hidden;}
+.customlayerbody_title {width:340px;height:26px;background-color:#d6222f;border-bottom:#686868 1px solid;overflow:hidden;}
+.customlayerbody_title_l {height:auto;width:269px;float:left;margin:7px 0px 0px 14px;display:inline;color:#ffffff;font-weight:bold;}
+.customlayerbody_title_r {height:auto;width:57px;float:left;margin:7px 0px 0px 0px;display:inline;color:#ffffff;font-weight:bold;cursor:pointer;}
+.customlayercorner_n_w {width:9px;height:9px;float:left;background:url('https://image1.highpin.cn/image/seeker/layer/layer_c_n_w.gif') no-repeat;}
+.customlayercorner_n_e {width:9px;height:9px;float:left;background:url('https://image2.highpin.cn/image/seeker/layer/layer_c_n_e.gif') no-repeat;}
+.customlayercorner_s_e {width:9px;height:9px;float:left;background:url('https://image4.highpin.cn/image/seeker/layer/layer_c_s_e.gif') no-repeat;}
+.customlayercorner_s_w {width:9px;height:9px;float:left;background:url('https://image1.highpin.cn/image/seeker/layer/layer_c_s_w.gif') no-repeat;}
+.customlayercontent {width:340px;min-height:150px;_height:150px;overflow:hidden;}
+.customlayercontent_c {width:280px;min-height:130px;_height:130px;margin:13px auto 0px auto;}
+.customlayercontent_c_title {font-weight:bold;font-family:'SimSun';height:28px;line-height:28px;}
+.customlayercontent_c_title img {margin:10px 9px 0px 0px;}
+.custom_c_title_bold {color:#cc0000;font-family:'SimHei';font-size:18px;}
+.customlayercontent_c_bottom {height:31px;line-height:31px;}
+.customlayercontent_c_bottom img {margin:5px 9px 0px 0px;}
+
+.customlayercontent_c_title {font-weight:bold;font-family:'SimSun';height:28px;line-height:28px;}
+.customlayercontent_c p span {display:block;float:left;}
+.customlayercontent_c p a {display:block;float:left;text-decoration:none;color:#323232;}
+.customlayercontent_c p a:hover {font-weight:bold;}
+.customlayercontent_c p img {display:block;float:left;}
+.customlayercontent_c p input{cursor:pointer;color:#ffffff;font-weight:bold;width:155px;height:31px;display:block;float:right;}
+.registerbtnmid {background:url(https://image2.highpin.cn/image/seeker/register/btn_mid.gif);}
+.registerbtngraymid {background:url(https://image4.highpin.cn/image/seeker/register/buttongray_mid.gif);}
+
+.top19 {margin-top:19px;}
+.bot14 {margin-bottom:14px;}
+
+
+.customlayer_alert_div {margin:10px auto;text-align:left;width:100%;line-height:25px;}
+.customlayer_btn_div {margin:10px auto;text-align:center;width:100%;height:24px;}
+.btn_confirm_submit{font-family: "microsoft yahei";display: block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(https://image1.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;cursor:pointer;font-weight:700;}
+/*弹出层按钮统一扁平化20140508*/
+.layer-common-btn2{font-family: "microsoft yahei";display: block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(https://image2.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;cursor:pointer;font-weight:700;}
+.layer-common-btn4{font-family: "microsoft yahei";display: block;width: 96px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(https://image4.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 0;cursor:pointer;font-weight:700;}
+.layer-common-btn6 {font-family: "microsoft yahei";display: block;width: 120px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(https://image1.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -96px;cursor:pointer;font-weight:700;}
+/*横向并列两个按钮的*/
+.layer-common-2btn2{font-family: "microsoft yahei";display: inline-block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;background: url(https://image2.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;cursor:pointer;font-weight:700;margin-right: 8px;}
+.layer-common-gray-btn2{font-family: "microsoft yahei";display: inline-block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;background: url(https://image4.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -64px;cursor:pointer;font-weight:700;}
+.customlayercontent_highpinalert {width:340px;overflow:hidden;margin: 0px 0px 15px 0px;}
+.customlayercontent_c_highpinalert {width:280px;margin:13px auto 0px auto;}
+.customlayer_alert_div_alert {margin:30px 30px 0px 0px;width:100%;line-height:28px;}
+.customlayer_btn_div_alert {text-align:center;width:100%;}
+.btn_openlayer_div_submit {width:170px;margin:0px auto;}
+.btn_confirm_submit_left {font-family: "microsoft yahei";display: block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;background: url(https://image1.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;float:left;cursor:pointer;font-weight:700;}
+
+
+/*评价猎头*/
+.ml_120 {margin-left:120px;}
+.lh_14 {line-height:14px;}
+.pt_12 {padding-top:12px;}
+.w_72 {width:72px;}
+.wid-520{width:520px;}
+.wid-522{width:522px;}
+.wid-542{width:542px;}
+.wid-540{width:540px;}
+.wid-542{width:542px;}
+.wid-560{width:560px;}
+.wid-580{width:580px;}
+.wid-582{width:582px;}
+.wid-600{width:600px;}
+.l_20 {margin-left:20px;}
+
+.evaluate-layer-con {background-color:#fff;padding:30px;}
+.unrespond{/*font-weight:bold;*/}
+
+.layer-list-hei {height:152px;clear:right;}
+.layer-list-name {line-height:28px;width:72px;padding-left:55px;text-align:right;float:left;}
+.layer-list-right {width:352px;float:left;margin-top:3px;}
+.icon-tips {width:148px;height:33px;float:left;background:url(https://image2.highpin.cn/image/shared/layer/bg/icon-tips.png) 0 0 no-repeat;}
+
+.pop-star{display:block;float:left;width:21px;height:20px;margin:6px 4px 0px 4px;overflow:hidden;}
+.starcheck{background:url(https://image4.highpin.cn/image/shared/logo/checkstar.gif) 0 0 no-repeat;}
+.staruncheck{background:url(https://image1.highpin.cn/image/shared/logo/uncheckstar.gif) 0 0 no-repeat;}
+.icon-yellow01 {background-position:0 0;}
+.icon-yellow02 {background-position:0 -33px;}
+.icon-yellow03 {background-position:0 -66px;}
+.icon-yellow04 {background-position:0 -99px;}
+.icon-yellow05 {background-position:0 -133px;}
+.layer-list-hei textarea {display:inline-block;float:left;width:342px;height:110px;border:1px solid #cccccc;color:#999;padding:5px 4px;overflow:auto;margin-top:10px;font-size:12px;resize:none;}
+.layer-list-hei a{display:inline-block;float:left;width:342px;height:25px;line-height:25px;margin-left:127px;overflow:hidden;color:rgb(153,153,153);}
+.layer-list-hei a span{color:#ce0919;}
+.color999 {color:#999;}
+.layer-list-right span {color:#ce0919;}
+.evaluate-layer-con h2 {margin:15px 0;line-height:20px;}
+.layer-border {border-bottom:1px dashed #b8b8b8;width:460px;}
+.layer-border p {width:420px;margin:auto;padding:6px 10px;line-height:22px;}
+.layer-input {padding-top:10px;}
+.layer-input-list {line-height:18px;color:#000000;}
+.layer-input-list input {margin-right:5px;vertical-align:-2px;margin-top:4px;}
+.pop-circle{display:inline-block;width:9px;height:9px;background-image:url(https://image2.highpin.cn/image/shared/layer/bg/letter-corner.gif);background-repeat:no-repeat;}
+.pop-em1{background-position:0 0;position:absolute;top:-1px;left:-1px;}
+.pop-em2{background-position:-11px 0;position:absolute;right:-1px;top:-1px;}
+.pop-em3{background-position:-11px -11px;position:absolute;right:-1px;bottom:-1px;}
+.pop-em4{background-position:0 -11px;position:absolute;left:-1px;bottom:-1px;}
+.left-porint{width:14px;height:16px;border:0  none;display:block;position:absolute;top:10px;left:7px;z-index:3;}
+.left-porint-new{width:10px;height:12px;border:0  none;display:block;position:absolute;top:10px;left:0px;z-index:3;}
+
+.textarea_comment{color:rgb(129,129,129)}
+.comment_show_alert_div{background:#ffffe9;width:450px;margin-bottom:20px;position:absolute;left:9px;top:0px;border:1px solid #ffd339;position:relative;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;border-radius:2px;}
+
+
+
+
+/*普通弹出层基础样式*/
+.commonlayermain{height:auto;background-color:#939393;margin:0px auto;}
+.commonlayertitle{height:9px;margin:0px auto;overflow:hidden;}
+.commonlayertitle_c {height:9px;float:left;background-color:#939393;}
+.commonlayerbody {height:auto;background-color:#ffffff;margin:0px auto;border:#686868 1px solid;overflow:hidden;}
+.commonlayerbody_title {height:26px;background-color:#d6222f;border-bottom:#686868 1px solid;/*overflow:hidden;*/}
+.commonlayerbody_title_l {height:auto;width:300px;float:left;margin:7px 0px 0px 14px;display:inline;color:#ffffff;font-weight:bold;}
+.commonlayerbody_title_r {height:auto;width:57px;float:right;margin:7px 4px 0px 0px;display:inline;color:#ffffff;font-weight:bold;cursor:pointer;}
+.commonlayercontent {overflow:hidden;}
+/*普通弹出层基础样式 endding*/
+
+.showlayerback {opacity:0.65;-moz-opacity: 0.65;filter:alpha(opacity=65);background-color:#000000;}
+.showlayerbackwhite {filter:alpha(opacity=0,finishOpacity=0,style=0);-khtml-opacity: 0;opacity:0;background-color:#fff;}
+
+.appraisement_des {table-layout:fixed; word-break: break-all; overflow:hidden;}
+/*add 评价猎头*/
+.ul-label{height:30px;line-height:30px;float:left;}
+.line22{line-height:22px;}
+.font14{font-size:14px;}
+.evaluate-name{color:rgb(49,90,170);margin:0 4px;}
+.tip-right{float:right;width:412px;margin-top:6px;}
+.tip-right p{line-height:18px;}
+.pop-bor-bottom{padding-bottom:10px;margin-bottom:8px;border-bottom:1px dotted rgb(187,187,187);}
+.pop-ask{display:inline-block;width:20px;height:20px;background:url(https://image4.highpin.cn/image/shared/layer/bg/ask.gif) no-repeat 0 0;vertical-align:middle;margin:5px 11px 5px 0px;}
+
+.mirsoft-blog{background:url(https://image1.highpin.cn/Image/Hunter/Invite/mircsoft-blog.png) repeat-x bottom; width:20px;height:20px;}
+/*H端搜索简历下载成功提示*/
+.download-tips {font-size:12px;line-height:20px;margin-bottom:7px;padding-left:10px;background:url(https://image2.highpin.cn/Image/Overseas/li-style.jpg) no-repeat 0 8px;padding-left:10px;}
+
+.fSearchDelLayer {margin: 25px 0 15px 0;text-align:center;}
+.fSearchDelLayer2 {margin: 25px 0 15px 0;}
+
+.wid-530 {width:530px;}
+.wid-510 {width:510px;}
+.wid-512 {width: 512px;}
+.returnWarpStyle a {margin-left:74px;}

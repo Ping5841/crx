@@ -1,0 +1,89 @@
+﻿/*highpin基础样式*/
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,code,form,fieldset,legend,input,textarea,blockquote {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+table, caption, tbody, tfoot, thead, tr, th, td{margin: 0; padding: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { font-family:tahoma,helvetica,arial,'bitstream vera sans','\5b8b\4f53',sans-serif;font-size: 12px;}
+ol, ul { list-style: none; }
+i{font-style: normal;font-weight: normal;}
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+a img{ border:0; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+a:focus {outline:none;}
+
+html {_background-image: url(about:blank);_background-attachment: fixed;}
+
+.pos-r{position: relative;}
+.pos-a{position: absolute;}
+.fl {float:left;}
+.fr {float:right;}
+.l{ float:left; _display:inline; }
+.r{ float:right; _display:inline; }
+.dp_n{ display:none; }
+.dp_b{ display:block; }
+.dp_i{ display:inline-block; *zoom:1; *display:inline; }
+.cursor-p{cursor: pointer;}
+.cursor-d{cursor: default;}
+.ta_l{ text-align:left; }
+.ta_r{ text-align:right; }
+.ta_c{ text-align:center; }
+.va_m{ vertical-align:middle; }
+.va_t{ vertical-align:top; }
+.va_b{ vertical-align:bottom;}
+.vis_v{ visibility:visible; }
+.vis_h{ visibility:hidden; }
+
+.yaHei{font-family: 'microsoft yahei';}
+.simSun{font-family: 'simsun';}
+.lh_16{line-height: 16px;}
+.lh_18{line-height: 18px;}
+.lh_20{line-height: 20px;}
+.lh_22{line-height: 22px;}
+.lh_24{line-height: 24px;}
+.lh_26{line-height: 26px;}
+.lh_28{line-height: 28px;}
+.font12{font-size: 12px;}
+.font13{font-size: 13px;}
+.font14{font-size: 14px;}
+.font15{font-size: 15px;}
+.font16{font-size: 16px;}
+.font18{font-size: 18px;}
+.font20{font-size: 20px;}
+.font24{font-size: 24px;}
+.fontW-b{font-weight: bold;}
+.fontW-n{font-weight: normal;}
+.cutWords{display: block; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-ms-text-overflow: ellipsis;-o-text-overflow: ellipsis;-moz-binding: url('ellipsis.xml#ellipsis');}
+.text-autoCut{overflow: hidden;white-space: nowrap;-webkit-text-overflow:ellipsis;-khtml-text-overflow: ellipsis;-icab-text-overflow: ellipsis;-moz-text-overflow: ellipsis;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.text-wrap{white-space: pre-wrap;white-space: -moz-pre-wrap;word-wrap: break-word;word-break: break-all;}
+
+.clearfix {*zoom: 1;}
+.clearfix:after {content:" ";display:block;height:0;visibility:hidden;clear:both;}
+
+.overflow-h {overflow:hidden;}
+.overflow-v {overflow:visible !important;}
+
+/*字体12px,14px radio,check居中对齐*/
+.radio,.checkbox{margin-top:-2px;margin-bottom:1px;vertical-align:middle;}
+
+.color333 {color:#333;}
+.color666 {color:#666;}
+.color999 {color:#999;}
+.colorRed0 {color:#e63e33;}
+.colorRed1 {color:#ce0919 !important;}
+.colorBlue0 {color:#002878;}
+.colorBlue1 {color:#4ba9e6;}
+.color_i{ color: inherit;}

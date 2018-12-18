@@ -1,0 +1,1272 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+ visibility:hidden;
+ display:block;
+ font-size:0;
+ content:" ";
+ clear:both;
+ height:0;
+}
+.clearfix {
+    zoom: 1;
+}
+.pop-mode-box{font-family: Tahoma, "宋体b8b\4f53", Arial, Helvetica, STHeiti;font-size:12px;color:rgb(0,0,0);}
+.pop-mode-box-wider{width:800px;font-family: Tahoma, "宋体b8b\4f53", Arial, Helvetica, STHeiti;font-size:12px;color:rgb(0,0,0);}
+/*弹出层头*/
+.top-l{background:url(//image.highpin.cn/image/shared/layermode/bg/layer_c_n_w.gif) no-repeat 0 0;width:9px;height:36px;}
+.top-r{background: url(//image.highpin.cn/image/shared/layermode/bg/layer_c_n_e.gif) no-repeat 0 0;width:9px;height:36px;}
+.top-c{background: url(//image.highpin.cn/image/shared/layermode/bg/layer-center.png) repeat-x 0 0;height:36px;}
+.new-pop-title{position:absolute;left:14px;bottom:5px;;font-size:12px;font-weight:bold;color:rgb(255,255,255);}
+.pop-title-box{position:relative;height:35px;}
+.pop-close{color:rgb(255,255,255);font-size:12px;position:absolute;right:14px;bottom:5px;cursor:pointer;font-weight:bold;}
+
+/*弹出层底*/
+.bottom-l{background: url(//image.highpin.cn/image/shared/layermode/bg/layer_c_s_w.gif) no-repeat 0 0;width:9px;height:10px;}
+.bottom-r{background: url(//image.highpin.cn/image/shared/layermode/bg/layer_c_s_e.gif) no-repeat 0 0;width:9px;height:10px;}
+.bottom-c{background: url(//image.highpin.cn/image/shared/layermode/bg/layer-center.png) repeat-x 0 0;height:10px;}
+/*弹出层中间*/
+.center-c{ background: rgb(255, 255, 255);}
+.center-l, .center-r{background:#939393;width:9px;}
+/*弹出层内容部分*/
+
+
+/*推荐职位成功弹出层C端*/
+.position-pass{padding:10px 30px 36px 30px;}
+.con-title{line-height:30px;background:url(//image.highpin.cn/image/shared/layermode/image/pop-pass.png) no-repeat left top;padding-left:40px;font-family: "microsoft yahei";font-size:16px;color:#468c41;}
+.share-box{width:292px;border:1px solid #d2ebf7;background:#eff9ff;padding:10px 24px 10px 24px;margin-top:16px;}
+.share-box img{margin-top:2px;}
+.share-box p{font-size:14px;line-height:20px;}
+.mar-t8{margin-top:8px;}
+/*H端您已发布过相同职位，请修改后重新发布！*/
+.same-position {padding:30px;font-family: Tahoma, "宋体b8b\4f53", Arial, Helvetica, STHeiti;background:#fff;}
+.same-position  h1{font-weight:bold;color:#646464;}
+.position-list {width:430px; border-bottom:2px solid #e9e9e9;padding-bottom:4px;}
+.h-r-border {width: 2px;height: 25px; background: url(//image.highpin.cn/image/shared/layermode/image/h-r-border.gif) no-repeat 0 0;display: inline-block;position: absolute;right: 0;top: 0;}
+.position-list li {width:205px;height:34px;line-height:34px;float:left;border-bottom:1px dotted #e6e6e6 ;padding-left:10px; color:#000;}
+.position-list li.lists-title {height:25px;line-height:25px;background:#f5f5f5;border-bottom:1px solid #e9e9e9;border-top:1px solid #e9e9e9;font-weight:bold;color:#646464;position:relative;}
+.mar-b14{margin-bottom:14px;}
+.btn7624 {text-align:center;line-height:26px;width:74px;height:26px;background:url(//image.highpin.cn/image/shared/layermode/image/btn7426.png) no-repeat 0 0;color:#fff;font-size:12px;cursor:pointer;font-weight:bold;}
+.mar-t8 {margin-top:8px;}
+.btn-one {width:74px;margin:0 auto;}
+/*C端邮件退订相关弹出层、保存成功、*/
+.pop-unsubscribe {width:510px;padding:24px 30px 30px 30px;background:#ffffff;}
+.mar-l30 {margin-left:30px;}
+.pop-edit-title {font-size:14px;font-family:"microsoft yahei";padding-bottom:22px;}
+.popedit-sub-title {font-size:14px;font-family:"microsoft yahei";}
+.pop-other-reason {width:478px;height:128px;border:1px solid #dbdfe6;display:block;padding:10px;margin-top:8px;color:#999999;}
+.pop-reason-lists li{line-height:28px;height:28px;font-size:12px;}
+.pop-reason-lists input {vertical-align:middle;margin:5px 12px 5px 0;}
+.mar-t20 {margin-top:20px;}
+.pop-reason-tips {color:#ce0919;font-size:12px;font-family: Tahoma, "宋体b8b\4f53", Arial, Helvetica, STHeiti;margin-top:8px;}
+.pop-email-btn {width:162px;margin:20px auto 0 auto;}
+.pop-reason-tips span{vertical-align:middle;margin:10px 8px 10px 0;}
+.mar-r14 {margin-right:14px;}
+.pad-t8 {padding-top:8px;}
+.pad-t10 {padding-top:10px;}
+.pop-greenpass {height:30px;line-height:30px;color:#468c41;font-family:"microsoft yahei"; font-size:16px;background:url(//image.highpin.cn/Image/Shared/Layer/greenpass.png) no-repeat left center;padding-left:42px;width:80px;margin:26px auto;}
+.pop-email-tips {width:340px;height:150px;overflow:hidden;}
+/*C端微博绑定提示信息20140423*/
+.microblog-tips-box {width:460px;padding:30px;font-size:14px;background-color:#ffffff;}
+.microblog-tips-title {font-size:14px;}
+.microblog-tips-words {line-height:30px;text-indent:2em;}
+.microblog-tips-rules {padding:10px 0px 10px 28px;background-color:#effaff;border:1px solid #d0eaf8;}
+.microblog-tips-rules li{line-height:22px;}
+.btn10030 {display:block;margin:0 auto;width:100px;height:30px;line-height:30px;background:url(//image.highpin.cn/image/shared/layermode/image/layer-btn10030.gif) no-repeat 0 0;color:#ffffff;font-size:14px;font-family:"microsoft yahei";margin-top:20px;}
+
+/*弹出层按钮统一扁平化20140508*/
+.layer-common-btn2{font-family: "microsoft yahei";display: block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;cursor:pointer;font-size:14px;}
+.layer-common-btn4{font-family: "microsoft yahei";display: block;width: 96px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 0;cursor:pointer;font-size:14px;}
+.layer-common-disablebtn4{font-family: "microsoft yahei";display: block;width: 96px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -128px;cursor:pointer;font-size:14px;}
+.layer-common-btn6 {font-family: "microsoft yahei";display: block;width: 120px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -96px;cursor:pointer;;font-size:14px;}
+.layer-common-btn8 {font-family: "microsoft yahei";display: block;width: 140px;height: 30px;line-height: 30px;color: #fff;text-align: center;margin: 14px auto 0 auto;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button8.png) no-repeat 0 0px;cursor:pointer;;font-size:14px;}
+/*横向并列两个按钮的*/
+.layer-common-2btn2{font-family: "microsoft yahei";display: inline-block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -32px;cursor:pointer;margin-right: 8px;}
+.layer-common-gray-btn2{font-family: "microsoft yahei";display: inline-block;width: 72px;height: 30px;line-height: 30px;color: #fff;text-align: center;background: url(//image.highpin.cn/image/shared/layermode/bg/layer-button.gif) no-repeat 0 -64px;cursor:pointer;font-weight:700;}
+.bg-white {background:#fff;padding:30px;}
+
+/*微博绑定弹出层*/
+.sina-layer {width:466px;font-size:14px;font-family: Tahoma, "宋体b8b\4f53", Arial, Helvetica, STHeiti;}
+.txt-i2 {text-indent:2em;}
+.confirm-layer {width:350px;font-size:14px;}
+.confirm-label {float:left;width:42px;line-height:30px;}
+.confirm-txt {float:left;width:270px;height:28px;border:1px solid #999999;}
+.confirm-line {margin-bottom:10px;height:30px;}
+.mar-b20 {margin-bottom:20px;}
+.sina-active {padding:0px 20px;background:#effaff;border:1px solid #d0eaf7;height:34px;line-height:34px;text-align:right;margin-top:14px;}
+.sina-active a {text-decoration:underline;color:rgb(40,70,140);}
+.bind-step {margin-top:14px;}
+.bind-step li {line-height:22px;}
+.alert-red {color:#ce0919;}
+.confirm-tips {color:#ce0919;margin-bottom:10px;margin-left:42px;}
+.confirm-em {float:left;width:16px;height:16px;background:url(//image.highpin.cn/image/shared/logo/checked.png) no-repeat 0 0;vertical-align:middle;margin:6px 0 6px 4px;}
+.sina-pass-alert {background:url(//image.highpin.cn/image/shared/layermode/image/pop-pass.png) no-repeat  center left;padding-left:44px;line-height:30px;font-weight:bold;font-size:14px}
+
+.sina-pass-add {line-height:22px;padding-left:44px;font-size:14px}
+/*B端职位管理*/
+.positionManagement{width:490px;padding:30px;font-size:14px;position:relative;background:#fff;}
+
+.position-pop-title {border-bottom:1px dotted #ccc;padding-bottom:14px;margin-bottom:10px;line-height:20px;overflow: hidden;white-space: normal;word-wrap: break-word;word-break: break-all;/*Only work in IE*/text-overflow: ellipsis;/*Not working in FF*/}
+.position-label {width:160px;line-height:24px;vertical-align:top;text-align:right;}
+.wid-330 {width:330px;}
+.padding-r10 {padding-right:10px;}
+.show-data td{line-height:24px;}
+.orange-col {color:#ff6600;font-weight:bold;}
+.red-col {color:#ce0919;}
+.update-this {color:#002878;position:absolute;bottom:40px;right:146px;font-size:12px;}
+/*B端发布新职位*/
+.pass-alert{background:url(//image.highpin.cn/image/shared/layermode/image/pop-pass.png) no-repeat  center left;line-height:30px;font-size:16px;font-family:"microsoft yahei";color:#468c41;padding-left:44px;width:170px;margin:0 auto;}
+.passAlertColor{line-height:30px;font-size:16px;font-family:"microsoft yahei";color:#468c41;}
+
+.fail-alert{background:url(//image.highpin.cn/image/shared/layermode/image/pop-fail.png) no-repeat  center left;line-height:30px;height:30px;font-size:16px;font-family:"microsoft yahei";color:#ff6600;padding-left:44px;width:170px;margin:0 auto;}
+
+.releaseJobs-success {padding:30px;width:340px;background:#fff;}
+.releaseJobs-success p {line-height:24px;font-size:14px;}
+.releaseJobs-success .corf8{color:#ff7800;}
+.releaseJobs-success .p1 {line-height: 14px;margin-bottom: 5px;}
+.releaseJobs-success .mt_25 {margin-top: 25px;}
+
+
+.corf8{color:#ff7800;}
+.fl {float:left;}
+.mar-r20 {margin-right:20px;}
+.release-pop-btns {width:260px;margin:0 auto;}
+.releaseJobs-rule {width:360px;padding:30px;background:#fff;}
+.releaseJobs-rule-tbl  td{height:44px;line-height: 20px;font-size:12px;}
+.release-nums {width:28px;height:24px;display:inline-block;background-image:url(//image.highpin.cn/image/shared/layermode/image/release-nums.png);background-repeat:no-repeat;vertical-align:middle;}
+.release-nums1 {background-position:0 0;}
+.release-nums2 {background-position:0 -26px;}
+.release-nums3 {background-position:0 -52px;}
+.wid-40 {width:40px;}
+.wid-300 {width:300px;}
+.wid-460 {width:460px;}
+.cor-e{color:#e43c36}
+.cor-35{color:#353535;}
+.iknow {width:104px;height:30px;background:url(//image.highpin.cn/image/shared/layermode/image/iknow.png) no-repeat 0 0;display:block;font-size:14px;font-weight:bold;color:#3c3c3c;margin:14px auto 0 auto;cursor:pointer;}
+.line24 {line-height:24px;}
+.line22 {line-height:22px;}
+.line28 {line-height:28px;}
+.red-font{color:#ce0919;font-weight:bold;font-size: 14px;}
+/*B端添加分支机构添加成功提示*/
+.padding30 {padding:30px;background:#fff;}
+.wid-370 {width:370px;}
+.wid-100 {width:100px;}
+.wid-150 {width:150px;}
+.line-20 {line-height:20px;}
+.font14 {font-size:14px;}
+.font16 {font-size:16px;}
+.font18 {font-size:18px;}
+.font12 {font-size:12px;}
+.yahei{font-family:"microsoft yahei"}
+.wid-500{width:500px;}
+.v-m {vertical-align:middle;}
+.mar-lr4 {margin:0 4px;}
+.txt-center {text-align:center;}
+.padding-b20 {padding-bottom:20px;}
+.padding-b10 {padding-bottom:10px;}
+.bor-t {border-top:1px dashed #b8b8b8;}
+.cor102 {color:#666666;}
+.mar-t14 {margin-top:14px;}
+.pad-t14 {padding-top:14px;}
+.padding8 {padding:8px;}
+.cor-re {color:#ce0919;}
+.wid-340 {width:340px;}
+/*108.6-2*/
+.wid-640 {width:640px;}
+.Bindex-pop  td{line-height:36px;}
+.orangered{color:#ff6600;}
+.cor28 {color:#282828;}
+.bIndexTitle {font-size:14ppx;line-height:14px;padding:20px 0 10px 0px;}
+.pad-b10 {padding-bottom:10px;}
+.contactWe {padding-top:6px;margin-top:6px;}
+/*B端意见反馈*/
+.BFeedback {margin-top:20px;padding-top:20px;border-top:1px dashed #b8b8b8;}
+.BFeedbackLabel {width:120px;text-align:right;padding-right:6px;line-height:26px;}
+.wid-620 {width:620px;}
+.pstRe {position:relative;}
+
+.feedbackBrowses{
+    display: none;
+    z-index: 100;
+    width: 62px;
+    height: 21px;
+    position: absolute;
+    right: 42px;
+    top: 6px;
+    cursor: pointer;
+
+    opacity:0;
+    /* IE 4-9 */  
+    filter:alpha(opacity=0);  
+    /*This works in IE 8 & 9 too*/  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+    /*IE4-IE9*/  
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.newBrowse {background:url(//image.highpin.cn/image/seeker/index/btnFile.jpg) no-repeat 0 0;display:inline-block;width:62px;height:20px;vertical-align:middle;margin:4px 0;cursor:pointer;}
+
+.feedback-browse1{
+    display:none;
+    cursor: pointer;
+    height: 21px;
+    overflow: hidden;
+    position: absolute;
+    right: 43px;
+    top: 6px;
+    width: 60px;
+    z-index: 100;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.mar-l126 {margin-left:126px;}
+.v-t {vertical-align:top;}
+.addFeed li{line-height:22px;font-size:12px;color:#666666;}
+.addFeed{list-style:disc;padding-left:16px;}
+.addFeed  span {color:#000;}
+.addFeed .spanRed {color: rgb(206,9,25);font-family: Arial;margin-right:4px; }
+.wid-120 {width:120px;}
+.wid-176 {width:176px;}
+.wid-204 {width:204px;}
+.rowTwo {line-height:24px;}
+.rowTwo .AddTipsFeedback {color:rgb(206,9,25);line-height:12px;}
+.padding-t8 {padding-top:8px;}
+.mar-b8 {margin-bottom:8px;}
+.mar-b16 {margin-bottom:16px;}
+.txt-r {text-align:right}
+.feedBackTxt {height:22px;border: 1px solid rgb(127,157,185);line-height:22px;display:inline-block;}
+.wid-165 {width:165px;}
+.wid-214 {width:214px;}
+.mar-r6 {margin-right:6px;}
+.must-mark{color:rgb(206,9,25);vertical-align:middle;}
+.cityScroll {height:100px;width:310px;overflow-y:scroll;border:1px solid #ccc;padding:4px 5px;}
+.alertMarkOrange {background:url(//image.highpin.cn/image/shared/layermode/image/alertMarkOrange.png) no-repeat  center left;padding-left:23px;}
+.wid265 {width:265px;}
+.markLayer li {line-height:26px;height:26px;}
+.markLayer label{height:26px; font-size:14px;line-height:26px;background-image:url(//image.highpin.cn/image/shared/layermode/bg/AddtionMarkNew.png);background-repeat:no-repeat;padding-left:26px;display:inline-block;}
+.mark1 {background-position:0 0px;}
+.mark2 {background-position:0 -30px;}
+.mark3 {background-position:0 -58px;}
+.mark4 {background-position:0 -86px;}
+.mark5 {background-position:0 -114px;}
+.mark6 {background-position:0 -142px;}
+.mark7 {background-position:0 -170px;}
+.mar-l12 {margin-left:12px;}
+/*卓币兑换规则*/
+.wid-640 {width:640px;}
+.wid-590 {width:590px;}
+.highCoin dd{line-height:24px;font-size:14px;margin-bottom:10px;}
+.highCoin p {width:590px;padding-left:10px;}
+.highCoinTitle {color:#646464;font-weight:bold;font-size: 14px;margin-bottom:10px;}
+.bor-t153 {border-top:1px dotted #999999;}
+.padding-t10 {padding-top:10px;}
+.w-b {word-break:break-all;}
+/*B端首页三绝招*/
+.mar-b10 {margin-bottom:10px;}
+.highCoin .padding-l38 {padding-left:38px;}
+.threeSkills  dt{font-size:14px;line-height:28px;}
+.threeSkills dt p {width:500px;padding-left:10px;}
+.threeSkills dd {margin-bottom:10px;}
+.threeSkills dd p {width:500px;padding-left:38px;line-height:18px;font-size:12px;}
+.wid-540 {width:540px;}
+.mar-t18 {margin-top:18px;}
+
+.mar_auto {margin:0 auto;}
+.w156 {width:156px;}
+
+/*108.21(卓币分配)*/
+.newFont1{font-family: "microsoft yahei";font-size:16px;color:#000;text-align:center;line-height:30px;}
+.w278{width: 278px;}
+.padding-b24 {padding-bottom:24px;}
+.w358 {width:358px;}
+.newFont2{font-family: SimSun;font-size:14px;color:#000;}
+.newText2 {border-bottom:1px dotted #ccc;}
+.newFont3{font-family: Arial;font-size:14px;color:#ff6600;}
+.pb-14 {padding-bottom:14px;}
+.newTextP {
+    height:24px;
+    line-height:24px;
+}
+.mt-10 {margin-top:10px;}
+.newTextP .leftS {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.weight_b {font-weight:bold;}
+
+.pt-10 {padding-top:10px;}
+.mb_20 {margin-bottom:20px;}
+.pr_3 {margin-right:3px;}
+
+
+
+
+.fl {float:left;}
+.fr {float:right;}
+.wid-140 {width:140px;}
+.wid-75 {width:75px;}
+.wid-72 {width:72px;}
+.wid-430 {width:430px;}
+.lh_22 {line-height: 22px;}
+.text_Cen{text-align: center;}
+.inlineB {display:inline-block;}
+.lh_14 {line-height:14px;}
+.wid-116 {width:116px;}
+.wid-392 {width:392px;}
+.lh_24 {line-height:24px;}
+
+.starStyle {
+    width: 12px;
+    color: #d73c36;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.textAreaTip {
+    color:#b5b5b5;
+    font-size:12px;
+    height:24px;
+    line-height:24px;
+}
+.textAreaTip em {
+    color:#ce0919;
+    font-style:normal;
+}    
+
+.textarea1 {
+    width:412px;
+    height:142px;
+    padding:5px 7px;
+    border:1px solid #aaa;
+    resize:none;
+    line-height: 24px;
+}
+
+.inputType {
+    border:1px solid #999; 
+    height:22px;
+    line-height:22px;
+}
+.wid-270 {width:270px;}
+.mb_6 {margin-bottom:6px;}
+.ml_10 {margin-left:10px;}
+.textTip2 {
+    font-size:12px;
+    color:#999;
+}
+.pt_20{padding-top:20px;}
+
+
+.labelList .labelOne{
+    color:#646464;
+    padding:3px 7px;
+    background:#eee;
+    border:1px solid #d2d2d2;
+    border-radius:2px;
+    font-size:12px;
+    font-family:SimSun;
+    display:inline-block;
+    cursor:pointer;
+    margin-right: 10px;
+    margin-bottom:6px;
+    
+}
+.labelList .hover{
+    color:#646464;
+    padding:2px 6px;
+    border:2px solid #d73c36;
+    background:#fff;
+}
+.labelList .active{
+    color:#646464;
+    padding:2px 6px;
+    border:2px solid #d73c36;
+    background:#fff url(//image.highpin.cn/image/shared/layermode/bg/labelChoose2.gif) no-repeat right bottom;
+}
+.labelList .active em {
+    display:none;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right:-1px;
+    margin-bottom:-1px;
+    width:8px;
+    height:8px;
+    background: url(//image.highpin.cn/image/shared/layermode/bg/labelChoose1.png) no-repeat bottom right;
+}
+
+.addTextBtn{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-top:3px;
+    background: url(//image.highpin.cn/Image/Seeker/Index/add1.gif) no-repeat;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resumeLayer input[type="radio"]{
+    vertical-align:middle;
+}
+.mt-13 {margin-top:13px;}
+.mt-8 {margin-top:8px;}
+.wid-253 {width:253px;*width:242px;_width:246px;}
+.ml_5 {margin-left:5px;}
+.h24 {height:24px;}
+
+/*新按钮样式,需要设置宽度,红*/
+.layer-common-newBtn{
+    display:inline-block;
+    background: url(//image.highpin.cn/image/shared/layermode/bg/newLayerBtn.jpg) no-repeat center left;
+    cursor: pointer;
+}
+.layer-common-newBtn em{
+    display:inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight:normal;
+    background: url(//image.highpin.cn/image/shared/layermode/bg/newLayerBtnR.jpg) no-repeat center right;
+}
+/*新按钮样式,需要设置宽度,灰*/
+.layer-common-gray-newBtn{
+    display:inline-block;
+    background: url(//image.highpin.cn/image/shared/layermode/bg/noNewLayerBtn.jpg) no-repeat center left;
+    cursor: pointer;
+}
+.layer-common-gray-newBtn em{
+    display:inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight:normal;
+    background: url(//image.highpin.cn/image/shared/layermode/bg/noNewLayerBtnR.jpg) no-repeat center right;
+}
+
+
+.privateEdit_overflow {
+    overflow-y:scroll;
+    overflow-x:hidden;
+    max-height:380px;
+}
+
+.newLeftStyle{
+    width: 130px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.bb_grey_d{border-bottom:1px dotted #b8b8b8;}
+.w516 {width:516px;}
+.resumeLabelPic {
+    width:50px;
+    height:72px;
+    display:inline-block;
+    border:0;
+    padding-right:14px;
+}
+.p10 {padding:10px;}
+.fontRL_1 {
+    font-size:14px;
+    font-family:SimSun;
+    color:#646464;
+    font-weight:bold;
+}
+.fontRL_2 {
+    font-size:12px;
+    font-family:SimSun;
+    color:#141212;
+}
+.pb_7 {padding-bottom:7px;}
+.w132 {width:132px;}
+.w150 {width:150px;}
+.ptb10 {padding:10px 0;}
+.mlr10 {margin:0 10px;}
+.m0 {margin:0;}
+.block {display:block;}
+.resumeLabelLayer {
+    display: block;
+}
+.h20 {height:20px;}
+.w500 {width:500px;}
+.pd-10 {padding-bottom:10px;}
+.wid-96 {width:96px;}
+
+.fontRL_2 em {margin:0;}
+.textarea2 {
+    width:374px;
+    height:110px;
+    padding:5px 7px;
+    border:1px solid #d2d2d2;
+    resize:none;
+    line-height: 24px;
+}
+.wid-390 {width:390px;}
+.padding40 {padding:40px;background:#fff;}
+.uploadImgLayer {position:relative;}
+.uploadImgLayer img {display: block; border: none;}
+.biggerImgBox {width:210px;height:300px;display: table-cell;vertical-align: middle;text-align: center;border: 1px solid #646565;overflow:hidden;}
+.biggerImg img{border:1px solid #b8b7b7;}
+.commonImg img{width:70px;height:100px;}
+.commonImg{width:70px;height:100px;overflow:hidden;}
+.commonImg p {padding-left:10px;}
+.middleImg img{width:50px;height:72px;}
+.middleImg{width:50px;height:72px;overflow:hidden;}
+.imgBottomAligh .middleImg {padding-top:28px; height:102px;}
+.smallImg img{width:30px;height:42px;}
+.smallImg{width:40px;height:42px;overflow:hidden;}
+.imgBottomAligh .smallImg {padding-top:58px;height:72px;}
+.imgBottomAligh{margin-top:26px;padding-left:10px;}
+
+.imgBottomAligh li {height:130px;padding-bottom:10px;position:relative;padding-left:10px;padding-right:10px;overflow:hidden;display:inline;}
+.imgBottomAligh p {text-align:left;font-size:12px;line-height:32px;position:absolute;bottom:6px;left:0px;width:70px;}
+    /*.imgBottomAligh img {position:absolute;top:10}*/
+.uploadLayerTips {width:260px;word-break:break-all;font-size:12px;font-family:SimSun;line-height:22px;word-wrap:break-word;}
+.layerImgAddress {width:160px;padding:4px;height:20px;border:1px solid #b8b7b7;line-height:20px;}
+.inputGroup {width:256px;position:relative;margin-bottom:15px;}
+.scanBtn {z-index: 100;
+display: inline-block;
+position: absolute;
+top: 0;
+right: 0;
+opacity: 0;
+filter: alpha(opacity=0);
+width: 74px;
+height: 30px;
+overflow: hidden;
+cursor: pointer;}
+.scanBtnShow {display:block;width:74px;
+width:72px;
+height:28px;
+line-height:28px;
+text-align:center;
+cursor: pointer;
+position: absolute;
+top: 0;
+right: 0;
+background-color:#ffeabd;border:1px solid #f2ae06;color:#3c3c3c;text-decoration:none;font-weight:bold;font-size:14px;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;o-border-radius:2px;
+}
+
+.mar-t162 {margin-top:162px;}
+.marie7{*margin-top:142px;}
+.inputGBox {position:absolute;right:0px;top:0px;}
+/*图片控制按钮*/
+.c-adjust-box{width:130px;height:30px;margin:0px auto;}
+.c-adjust-bg{background-image:url(//image.highpin.cn/image/seeker/index/approve-btnbg.gif);background-repeat:no-repeat;cursor:pointer;}
+.c-adjust-btn{height:25px;width:130px;}
+.c-forward-btn{width:25px;height:25px;background-position:0 -139px;display:inline-block;float:left;margin:0px 5px;}
+.c-backward-btn{width:25px;height:25px;background-position:-29px -139px;display:inline-block;float:left;margin:0px 5px;}
+.c-nomal-btn{width:46px;height:25px;background-position:0 -166px;display:inline-block;float:left;margin:0px 5px;}
+.yellowBtns {display:inline-block;height:28px;line-height:28px;text-align:center;cursor: pointer;background-color:#ffeabd;border:1px solid #f2ae06;color:#3c3c3c;text-decoration:none;font-weight:bold;font-size:14px;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;o-border-radius:2px;
+padding:0 8px;}
+.mar-l20 {margin-left:20px;}
+.mar-b45 {margin-bottom:45px;}
+.DirectlyLeaderImg {display:block;margin-bottom:45px;width:687px;height:346px;border:none;}
+.width416 {width:416px;}
+
+
+/*追评样式*/
+.pb_6 {padding-bottom:6px;}
+.return_layer_title{
+    padding: 8px 0 0 0;
+    font-size: 14px;
+    height: 22px;
+    width: 75px;
+    color: #000;
+    font-weight: normal;
+    float: left;
+    text-align: left;
+}
+.areaTxt{height:92px;padding:7px 4px;border:1px solid rgb(127,157,185);color:rgb(153,153,153);overflow:auto;font-size:12px;}
+.width390{ width: 390px;}
+.width380 {width:380px;}
+
+
+.hunterColor{color: #315AAA;}
+
+.new_evaluate_text{
+    min-width: 300px;
+    max-width: 450px;
+    padding: 20px 20px 0;
+}
+/*蓝色边框输入框*/
+.IptBlue {border:1px solid #9ab1c6;background-color:#fff;height:18px;padding:2px 4px;}
+.cor100 {color:#646464;}
+.mar-t25 {margin-top:25px;}
+
+
+
+/*团队领导弹出框*/
+.wid_690 {
+    width:690px;
+}
+.leader_title{
+    position: relative;
+    margin-bottom: -18px;
+}
+.mar-l150 {margin-left:150px;}
+.aBlue {text-decoration:none;color:#002878;}
+.aBlueHave {text-decoration:underline;color:#002878;}
+.commonTxtarea {border:1px solid #bbbbbb;padding:5px 7px; }
+.width324 {width:324px;}
+.ht78 {height:78px;}
+.mar-t10 {margin-top:10px;}
+.wordLimit{color:#999999;font-size:12px;font-family:SimSun;}
+.wordLimit span {color:#ce0919;margin-right:4px;margin-left:4px;}
+
+
+
+
+/*B端(发布新职位页面) 新增部门弹出框*/
+.wid-102 {width:102px;}
+.leftArea_text {
+    display:inline-block;
+    float: left;
+    width:84px;
+    height: 14px;
+    font-family: SimSun;
+    font-size: 14px;
+    color: #000;
+    padding: 8px 0;
+}
+.leftArea_text em {
+    color:#d73c36;
+    margin-right:6px;
+}
+.inputLayer_Style {
+    padding: 2px 21px 2px 2px;
+    width: 230px;
+    height: 24px;
+    border: 1px solid #bbb;
+    line-height: 24px;
+    font-size: 12px;
+    background: url(//image.highpin.cn/image/recruiter/releasenewjobs/branch.png) no-repeat top right;
+    cursor: pointer;
+    margin-bottom:8px;
+}
+.inputLayer_Style2 {
+    padding: 2px;
+    width: 249px;
+    height: 24px;
+    border: 1px solid #bbb;
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom:12px;
+}
+.branchTextP {
+    font-family:SimSun;
+    font-size:12px;
+    /*color:#ce0919;*/
+    color:#808080;
+    height:18px;
+    line-height:18px;
+}
+.pt-14 {padding-top:14px;}
+.branchWarpBox {
+    position: absolute;
+    width: 253px;
+    height: 82px;
+    top: 59px;
+    right: 30px;
+    border: 1px solid #bbb;
+    z-index: 1;
+    background: #fff;
+    overflow: auto;
+}
+.branchLayer_tipLine{
+    padding-left: 84px;
+    padding-bottom: 8px;
+    height: 14px;
+    line-height: 14px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #ce0919;
+}
+.pt-10{padding-top:10px;}
+
+.fileInputContainer{
+        height:14px;
+        background:url(//image.highpin.cn/image/seeker/index/add.gif);
+        position:relative;
+        width: 14px;
+        margin-left:500px;
+        display:none;
+    }
+    .fileInput{
+        height:14px;
+        width:14px;
+        overflow: hidden;
+        position:absolute;
+        right:0;
+        top:0;
+        opacity: 0;
+        filter:alpha(opacity=0);
+        cursor:pointer;
+    }
+
+
+
+
+/*同名公司注册*/
+.nameLable {text-align:right;font-size:14px;color:#282828;}
+.mar-l140 {margin-left:140px;}
+
+
+.nameLable {text-align:right;font-size:14px;color:#282828;}
+.mar-l140 {margin-left:140px;}
+.field-name-lay {width: 90px;text-align: right;font-size: 14px;}
+.width290 {width:290px;}
+.width59 {width:59px;}
+.wid-560 {width:560px;}
+.wid-16 {width:16px;}
+.line30{line-height:30px;}
+
+
+
+/*B端首页直属领导弹出框*/
+.wid_800{width:800px;}
+.leaderBoxTipText {
+    position: absolute;
+    top: 467px;
+    right: 58px;
+    width: 280px;
+    height: 40px;
+    font-family: SimSun;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+
+
+.mb_24 {margin-bottom:24px;}
+.top_466{top: 466px;}
+#teamLeaderGuideLayer .textP,#evaluate_alert_layer .textP {width:204px;height:30px;line-height:30px;margin:0 auto;font-family:SimSun;font-size:14px;font-weight:bold;}
+#teamLeaderGuideLayer .numCountTip,#evaluate_alert_layer .numCountTip{
+    float:left;
+    display:inline-block;
+    color:#e43b36;
+    height:30px;
+    line-height:30px;
+    margin-right:14px;
+}
+#teamLeaderGuideLayer .closeGuideBtn,#evaluate_alert_layer .closeGuideBtn{
+    display:inline-block;
+    float:left;
+    height:28px;
+    line-height:28px;
+    padding:0 16px;
+    background:#fff;
+    color:#c5c4c4;
+    border:1px solid #c6c5c5;
+    cursor: default;
+    border-radius: 2px;
+}
+#teamLeaderGuideLayer .textP input[type=checkbox],#evaluate_alert_layer .textP input[type=checkbox]{
+    float:left;
+    margin:9px 6px 0 14px;
+    *margin:5px 6px 0 14px;
+}
+#teamLeaderGuideLayer .noAgain ,#evaluate_alert_layer .noAgain{
+    font-weight:normal;
+    font-size:12px;
+    color:#000;
+    cursor: default;
+}
+
+
+
+/*H端评价候选人*/
+.evalWarpHideBox {
+    padding-top:10px;
+    float:left;
+    width: 460px;
+    max-height: 78px;
+    overflow: hidden;
+}
+.listShowArrowDown{
+    float:left;
+    width:10px;
+    height:10px;
+    background:url(//image.highpin.cn/image/seeker/index/slideDownUpBg.gif) no-repeat 0 0;
+    margin: 2px 5px 0 0;
+    overflow:hidden;
+}
+.listShowArrowUp{
+    float:left;
+    width:10px;
+    height:10px;
+    background:url(//image.highpin.cn/image/seeker/index/slideDownUpBg.gif) no-repeat 0 -10px;
+    margin: 2px 5px 0 0;
+}
+.listShowText{
+    float:left;
+    height:14px;
+    line-height:14px;
+    font-size:12px;
+    font-family:SimSun;
+    color:#002878;
+    text-decoration:underline;
+}
+.labelsNumText {
+    float: left;
+    width: 100%;
+    height: 12px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #141212;
+    line-height: 12px;
+}
+.labelsNumText .red{
+    color:#ce0919;
+    font-weight:bold;
+}
+
+.newInputWarpBox {
+    float:left;
+    width:100%;
+    margin-top:6px;
+}
+.newInputLabelBox {
+    float:left;
+    width:132px;
+    height:18px;
+    line-height:18px;
+    border:1px solid #9ab1c6;
+}
+.newInputLabelTip {
+    float:left;
+    font-family:SimSun;
+    font-size:12px;
+    line-height:20px;
+    height:20px;
+    color:#ce0919;
+    margin-left:6px;
+}
+
+.newLabelsUL {
+    width:100%;
+    *width:auto;
+    float:left;
+    margin-top:10px;
+}
+.newLabelsUL .newLabelsUL_li{
+    float:left;
+    border:1px solid #d2d2d2;
+    padding: 0 6px;
+    height:18px;
+    line-height:18px;
+    background:#eee;
+    border-radius:2px;
+    color: #646464;
+    font-size: 12px;
+    font-family: SimSun;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    *float:none;
+    *display:inline;
+    *zoom:1;
+}
+.newLabelsUL .newLabelsUL_li em{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url(//image.highpin.cn/Image/Seeker/Index/c_deleteIcon.gif) no-repeat 0 0;
+    cursor: pointer;
+    margin-left: 4px;
+    *vertical-align:middle;
+}
+.newLabelsUL .newLabelsUL_li span {
+    height: 12px;
+    line-height: 12px;
+    padding: 3px 0;
+    display:inline-block;
+    _vertical-align:middle;
+}
+
+
+
+.text_indent2 {
+    text-indent:2em;
+}
+.lh24 {line-height:24px;}
+.wid_480 {width:480px;}
+.newFunTip_content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.newFunTip_content p .lh26 {
+    line-height:26px;
+}
+.newFunTip_content .numbers{
+    width: 28px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(//image.highpin.cn/image/shared/layermode/image/release-nums.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.newFunTip_content .num1{
+    background-position: 0 0;
+}
+.newFunTip_content .num2{
+    background-position: 0 -26px;
+}
+.newFunTip_content span {float:left;}
+.newFunTip_content span.pt_3 {padding-top:3px;}
+.wid-440 {width:440px;}
+.wid_80 {width:80px;}
+.pl_40 {padding-left:40px;*padding-left:0px;}
+.pt_16 {padding-top:16px;}
+.bindingSinaRadio {display:inline-block;width:13px;height:13px;vertical-align:middle;}
+
+/*团队领导 留言框*/
+.message_title{
+    font: 14px/22px SimSun;
+    color: #000;
+    margin-bottom:6px;
+}
+.message_textarea {
+    width: 456px;
+    height: 114px;
+    padding:2px;
+    border: 1px solid #d2d2d2;
+    resize: none;
+    margin-bottom:2px;
+    overflow:auto;
+}
+.message_tip{
+    font:12px/22px SimSun;
+    color:#92908a;
+    margin-bottom:6px;
+}
+.message_tip em{
+    color:#d73c36;
+}
+.message_text{
+    font: 12px/22px SimSun;
+    color: #000;
+}
+
+
+
+/*通用弹出层组件 整站 commonLayer*/
+
+/*弹出框上下边框*/
+.commonLayerBorder{
+    width:auto;
+    height: 9px;
+    _overflow:hidden;
+}
+.commonLayerBorder .center{
+    height: 9px;
+    margin: 0 9px;
+    _margin: 0;
+    background-color: #939393;
+}
+.commonLayerBorder .tlRadius {
+    float:left;
+    width: 9px;
+    height: 9px;
+    background: url('//image.highpin.cn/image/seeker/layer/layer_c_n_w.gif') no-repeat;
+    _margin-right:-3px;
+}
+.commonLayerBorder .trRadius {
+    float: right;
+    width: 9px;
+    height: 9px;
+    background: url('//image.highpin.cn/image/seeker/layer/layer_c_n_e.gif') no-repeat;
+    _margin-left:-3px;
+}
+.commonLayerBorder .blRadius {
+    float:left;
+    width: 9px;
+    height: 9px;
+    background: url('//image.highpin.cn/image/seeker/layer/layer_c_s_w.gif') no-repeat;
+    _margin-right:-3px;
+}
+.commonLayerBorder .brRadius {
+    float: right;
+    width: 9px;
+    height: 9px;
+    background: url('//image.highpin.cn/image/seeker/layer/layer_c_s_e.gif') no-repeat;
+    _margin-left:-3px;
+}
+
+.commonLayerWarp{
+    width: auto;
+    height: auto;
+    background-color: #939393;
+    padding: 0 9px;
+}
+.commonLayerWarp .layerTitle {
+    height: 26px;
+    padding:0 14px;
+    background-color: #d6222f;
+    border-bottom: #686868 1px solid;
+    font-weight:bold;
+    line-height:26px;
+    color:#fff;
+    font-size:12px;
+}
+.commonLayerContainer {
+    background:#fff;
+}
+.fl {float:left;}
+.fr {float:right;}
+.cur_point {cursor:pointer;}
+
+
+
+
+/*HR Layer 20150320*/
+.wid-360 {width:360px;}
+.h-158{height:158px;}
+.pos_r {position:relative;}
+.isHrBtn {
+    position:absolute;
+    top:102px;
+    left:40px;
+    width:160px;
+    height:36px;
+    background:#e43b36;
+    font:18px/36px Microsoft Yahei;
+    text-align:center;
+    color:#fff;
+    border-radius:2px;
+    cursor:pointer;
+}
+.isHrBtn_hover{
+    width:170px;
+    height:40px;
+    font:20px/40px Microsoft Yahei;
+    top:100px;
+    left:35px;
+}
+.notHrBtn {
+    position:absolute;
+    top:102px;
+    left:220px;
+    width:160px;
+    height:36px;
+    background:#1a91d5;
+    font:18px/36px Microsoft Yahei;
+    text-align:center;
+    color:#fff;
+    border-radius:2px;
+    cursor:pointer;
+}
+.notHrBtn_hover {
+    width:170px;
+    height:40px;
+    font:20px/40px Microsoft Yahei;
+    top:100px;
+    left:214px;
+}
+.hrTipBox,.notHrTipBox{
+    display:none;
+    position:absolute;
+    background:url(//image.highpin.cn/image/shared/layermode/bg/tipLabelBg.gif) no-repeat 0 0;
+	width: 107px;
+	height: 29px;
+    font:20px/29px Microsoft Yahei;
+    color:#bebebe;
+    text-align:center;
+}
+.hrTipBox_po1 {
+    top:22px;
+    left:102px;
+}
+.hrTipBox_po2 {
+    top:58px;
+    left:34px;
+}
+.hrTipBox_po3 {
+    top:158px;
+    left:100px;
+}
+.notHrTipBox_po1 {
+    top:22px;
+    right:32px;
+}
+.notHrTipBox_po2 {
+    top:58px;
+    right:78px;
+}
+.notHrTipBox_po3 {
+    top:158px;
+    right:28px;
+}
+
+.mt_32 {margin-top:32px;}
+
+
+
+/*转发简历到邮箱*/
+.resumeToMail {}
+.resumeToMail dl{
+    line-height:24px;
+    padding-bottom:5px;
+    height:24px;
+}
+.resumeToMail dt{
+    float:left;
+    padding-right:10px;
+}
+.resumeToMail dl dt em{
+    color: #d6222f;
+    margin-right: 8px;
+    vertical-align: text-top;
+    font-size: 16px;
+}
+.resumeToMail dl dd input{
+    width:272px;
+    height:22px;
+    border:1px solid #9ab1c6;
+}
+.resumeToMail dl .ml_79 {
+    margin-left:79px;
+}
+.resumeToMail dl dd .inputTip {
+    font:12px/18px SimSun;
+    color:#6e6e6e;
+    margin-top:6px;
+}
+.resumeToMail select{
+    width:138px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #9ab1c6;
+    color: rgb(129,129,129);
+    display: inline-block;
+    float:left;
+    margin-right:10px;
+}
+.resumeToMail select.select2 {
+    width:187px;
+}
+.resumeToMail .submitLine{
+    margin: 42px 0 0 158px;
+}
+.resumeToMail .submitLine .tip {
+    font:12px/30px SimSun;
+    color:#d6222f;
+    margin-left:10px;
+    line-height:30px;
+}
+.resumeToMail .w170 {
+    width:170px;
+}
+.resumeToMail .mr_0 {
+    margin-right:0;
+}
+.redColor {color:#d6222f;}
+.pt_26{padding-top:26px;}
+
+.wid_524 {width:524px;}
+
+
+
+/*B端下载简历*/
+.downloadLayer_font1{
+    height: 14px;
+    color: #000;
+    font-family: SimSun;
+    font-size: 14px;
+    line-height: 14px;
+}
+.pb_14 {padding-bottom:14px;}
+.pt_30 {padding-top:30px;}
+.lineH_40 {line-height:40px;}
+.h_40 {height:40px;}
+.pd_10 {padding:10px;}
+.w_240 {width:240px;}
+.pl_52 {padding-left:52px;}
+.w_518 {width:518px;}
+.w_368 {width:368px;}
+.pl_98 {padding-left:98px;}
+.grey_color {color:#646464;}
+.ml_36 {margin-left:36px;}
+.pb_10 {padding-bottom:10px;}
+.pl_5 {padding-left:5px;}
+.pr_5 {padding-right:5px;}
+.pb_15 {padding-bottom:15px;}
+
+
+.layer_labelLists {
+    padding:46px 0;
+}
+.layer_labelLists span {
+    float:left;
+    width:130px;
+    height:42px;
+    font:16px/42px Microsoft Yahei;
+    background:url(//image.highpin.cn/image/shared/Layer/layer_label_bg.jpg) no-repeat 0 0;
+    color:#367ca5;
+    text-align:center;
+    margin-right:20px;
+}
+.layer_labelLists .mr_0 {margin-right:0;}
+
+
+
+
+/*B端发布职位新*/
+.succ_tip_text{
+    height:36px;
+    background:url(//image.highpin.cn/image/shared/layermode/image/succ_icon_layer.png) no-repeat left 0;
+    padding-left:50px;
+    margin-left:62px;
+    font:16px/36px Microsoft Yahei;
+    color:#468c41;
+}
+.font_song{font-family:SimSun}
+.pt_24{padding-top: 24px;}
+
+.pt_62{ padding-top: 62px;}
+.layer_labelLists2{
+    padding: 46px 148px;
+}
+
+.layer_labelLists3{ padding:46px 74px;}
+
+.jobInviteLayer_icons_success {
+    float:left;
+    width: 28px;
+    height: 28px;
+    background: url(//image.highpin.cn/image/seeker/layer/jobInviteLayer_icons.gif)  no-repeat ;
+    background-position:0 -43px  ;
+}
+
+
+.layer_labelLists .mr_0 {margin-right:0;}
+
+.hoverBtnBg{
+    display: block;
+    width:120px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    font: 16px/30px "microsoft yahei";
+    background: url(//image.highpin.cn/image/shared/layermode/bg/hover_btn_bg.png) no-repeat 0 -30px;
+    cursor: pointer;
+    margin:0 auto;
+}
+.hoverBtnBg:hover{
+    background:url(//image.highpin.cn/image/shared/layermode/bg/hover_btn_bg.png) no-repeat 0 0;
+}
+
+.ml_40 {
+        margin-left:40px;
+}
+
+

@@ -1,0 +1,467 @@
+.mg-t-34 {
+    margin-top: 34px;
+}
+.mg-b-18 {
+    margin-bottom: 18px;
+}
+.mg-r-10 {
+    margin-right: 10px;
+}
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+.fz-14 {
+    font-size: 14px;
+}
+.color-999 {
+    color: #999;
+}
+.color-333 {
+    color: #333;
+}
+.fw-b {
+    font-weight: bold;
+}
+.line-h-22 {
+    line-height: 22px;
+}
+/*超出部分显示省略号*/
+.over-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.separation-line {
+    margin: 0 5px;
+    color: #666;
+}
+
+.main-container {
+    position: relative;
+    background: #fff;
+    color: #000;
+    margin: 0 auto;
+    font-family: microsoft yahei, Arial, Verdana, Sans-serif;
+    font-size: 14px;
+}
+
+.mainbox {
+    width: 816px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.page-top {
+    height: 90px;
+    border-bottom: 5px solid #e43c36;
+}
+
+.resume-top {
+    width: auto;
+    position: relative;
+    padding: 30px 20px;
+    border: 1px solid #eee;
+}
+.resume-top .btn-view-contact {
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: #e43c36;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.resume-top .btn-invite {
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: #e43c36;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+}
+/*页面向下滚动时简历头部*/
+.resume-top-fixed-wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 888;
+    border-bottom: 2px solid #eee;
+    background: #fff;
+    left: 0px;
+    top: 0px;
+}
+.resume-top-fixed {
+    width: 774px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border: none;
+}
+.resume-top-fixed .user-info {
+    float: left;
+    width: 560px;
+}
+.resume-top-fixed .user-info .cellphone {
+    margin-right: 24px;
+}
+.resume-top-fixed-wrapper .resume-top-fixed .avatar {
+    float: left;
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.resume-top-fixed-wrapper .resume-top-fixed .avatar img {
+    width: 80px;
+    height: 100px;
+}
+.resume-top-normal .cellphone {
+    margin-right: 15px;
+}
+
+
+.resume-main {
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+
+
+.resume-top .avatar {
+    float: left;
+    width: 120px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.resume-top .avatar img {
+    width: 120px;
+    height: 150px;
+}
+
+.resume-top .user-info {
+    float: left;
+    width: 632px;
+}
+.user-info .name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    vertical-align: middle;
+}
+.user-info p {
+    color: #333;
+}
+.user-info .gold-icon {
+    display: inline-block;
+    width: 57px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: text-top;
+    background: url('/Image/Shared/view-resume-images/gold-icon.png') center no-repeat;
+}
+.user-info .cellphone-icon {
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+    vertical-align: top;
+    background: url('/Image/Shared/view-resume-images/link-icon.png') left top no-repeat;
+}
+.user-info .email-icon {
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+    vertical-align: top;
+    background: url('/Image/Shared/view-resume-images/link-icon.png') 0 -25px no-repeat;
+}
+.user-info .button {
+    width: 96px;
+    height: 30px;
+    background: #e43c36;
+    border-radius: 3px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.resume-top .switch-en-icon {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 52px;
+    height: 25px;
+    cursor: pointer;
+    background: url('/Image/Shared/view-resume-images/switch-icon.png') 0 0 no-repeat;
+}
+.resume-top .switch-cn-icon {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 52px;
+    height: 25px;
+    cursor: pointer;
+    background: url('/Image/Shared/view-resume-images/switch-icon.png') 0 -24px;
+}
+.mainbox .tab-line {
+    font-size: 16px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.tab-line .tab-item {
+    display: inline-block;
+    min-width: 140px;
+    height: 36px;
+    margin-right: 10px;
+    line-height: 36px;
+    text-align: center;
+    color: #666;
+    cursor: pointer;
+}
+.tab-line .tab-item.active {
+    color: #e43c36;
+    background: url('/Image/Shared/view-resume-images/tab-b-line.png') center 28px no-repeat;
+}
+/*个人简历区域*/
+.resume-detail-container {
+   
+}
+.resume-detail-container .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e43c36;
+}
+.resume-detail-container .content {
+    padding: 18px 0 12px 26px;
+    letter-spacing:1px;
+    line-height: 22px;
+}
+.resume-detail-container .area-layout {
+    padding: 30px 30px 30px 10px;
+    border-bottom: 1px dashed #eee;
+}
+.resume-detail-container .icon {
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    vertical-align: top;
+}
+.resume-detail-container .job-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -132px 0 no-repeat;
+}
+.resume-detail-container .self-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -176px 0 no-repeat;
+}
+.resume-detail-container .work-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -44px 0 no-repeat;
+}
+.resume-detail-container .project-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') 0 0 no-repeat;
+}
+.resume-detail-container .education-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -66px 0 no-repeat;
+}
+.resume-detail-container .training-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -110px 0 no-repeat;
+}
+.resume-detail-container .language-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -198px 0 no-repeat;
+}
+.resume-detail-container .skills-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -154px 0 no-repeat;
+}
+.resume-detail-container .certificate-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -88px 0 no-repeat;
+}
+.resume-detail-container .other-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -22px 0 no-repeat;
+}
+.resume-detail-container .attechment-icon {
+    background: url('/Image/Shared/view-resume-images/item-icon.png') -220px 0 no-repeat;
+}
+.job-intention-area .item {  /*英文简历求职意向内容太多换行问题*/
+    line-height: 26px;
+    font-size: 14px;
+    color: #333;
+    font-family: microsoft yahei;
+}
+.job-intention-area .item td {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.job-intention-area .item > td:first-child {
+    text-align: right;
+    padding-right: 8px;
+    vertical-align: top;
+}
+.resume-detail-container .content .text {
+    line-height: 22px;
+}
+.work-experience-area > .content > .company-info-icon {
+    width: 716px;
+    height: 110px;
+    background: url('/Image/Shared/view-resume-images/item-bg-icon.png') 0 0 no-repeat;
+}
+.work-experience-area > .content .company-info {
+    padding: 18px 0 0 24px;
+}
+.content .duty-desc, .content .achievement-desc {
+    padding: 16px 0 10px 25px;
+}
+.content .desc-title {
+    padding-bottom: 6px;
+}
+.project-experience-area > .content > .project-info-icon {
+    width: 716px;
+    height: 60px;
+    background: url('/Image/Shared/view-resume-images/item-bg-icon.png') 0 -110px no-repeat;
+}
+.project-experience-area > .content .project-info {
+    padding: 18px 0 0 24px;
+    color: #333;
+    font-weight: bold;
+}
+.training-area .training-info {
+    margin-bottom: 10px;
+}
+.training-area .certificate {
+    margin-top: 14px;
+}
+.mainbox .desc-item {
+    color: #666;
+}
+
+.language-area .language-item td {
+    padding-right: 50px;
+}
+.skills-area .skills-item { /*专业技能文字太多问题*/
+    vertical-align: top;
+}
+.skills-area .skills-item td {
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.skills-area .skills-item td:first-child {
+    max-width: 300px;
+}
+.attechment-area .attechment-item  {
+    margin-bottom: 20px;
+}
+.attechment-area .attechment-item img  {
+    width: 160px;
+    height: 90px;
+    border: 1px solid #eee;
+    float: left;
+    margin-right: 20px;
+}
+.attechment-area .attechment-item .desc {
+   float: left;
+   width: 520px;
+}
+.certificate-item td:first-child {
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+/*英文版样式 begin*/
+.lang-en .resume-top .user-info {
+    width: 560px;
+}
+.lang-en .resume-top-fixed .user-info {
+    width: 560px;
+}
+.lang-en .resume-top .user-info .button {
+    width: 172px;
+    height: 30px;
+    background: #e43c36;
+    border-radius: 3px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.lang-en .resume-detail-container .content {
+    letter-spacing: 0;
+}
+/*英文版样式 end*/
+
+/***************************************************************************************/
+/***************************************B端查看C端样式**********************************/
+.b-to-c .user-info .button {
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+    background: url(/Image/Shared/view-resume-images/freeBtnsBg.png) center no-repeat;
+}
+.b-to-c .user-info .btntop1 {
+    width: 140px;
+    margin-right: 10px;
+    background: url(/Image/Shared/view-resume-images/freeBtnsBg.png) center no-repeat;
+}
+.b-to-c .user-info .btntop2 {
+    width: 124px;
+    background: url(/Image/Shared/view-resume-images/DownBtnsNew1.png) center no-repeat;
+}
+
+.b-to-c .user-info .btn1 {
+    width: 140px;
+    text-indent: 3em;
+    margin-right: 10px;
+    background: url(/Image/Shared/view-resume-images/freeBtnsBg.png) center no-repeat;
+}
+.b-to-c .user-info .btn2 {
+    width: 124px;
+    text-indent: 50px;
+    background: url(/Image/Shared/view-resume-images/DownBtnsNew1.png) center no-repeat;
+}
+/*B端查看C端样式 英文版*/
+.b-to-c.lang-en .user-info .button {
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+    background: url(/Image/Shared/view-resume-images/freeBtnsBg.png) center no-repeat;
+}
+
+/**********************************************************************/
+/*********************************简历打印预览样式********************************/
+.b-to-c-p .resume-main {
+    padding: 20px;
+    border: none;
+}
+.b-to-c-p .resume-top {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+.b-to-c-p .mainbox {
+    width: 708px;
+}
+.b-to-c-p .resume-detail-container .area-layout {
+    padding: 30px 30px 30px 0;
+    border-bottom: 1px dashed #eee;
+}
+.b-to-c-p .page-bottom {
+    text-align: right;
+    font-size: 12px;
+    color: #333;
+}
+/*英文打印预览*/
+.b-to-c-p.lang-en .resume-top .user-info {
+    width: 520px;
+}

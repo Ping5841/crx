@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.line26{line-height:26px;}
+.fl{float:left;}
+.fr{float:right;}
+.publicSwitch{border:1px solid #f2f2f2;background-color:#fafafa;}
+.height46{height:46px;}
+.line38{line-height:38px;}
+.line46{line-height:46px;}
+.padding-l19{padding-left:19px;}
+.padding-r19{padding-right:19px;}
+.padding-l16{padding-left:16px;}
+.padding-r16{padding-right:16px;}
+.font12{font-size:12px;}
+.SwitchGroup{width:42px;height:20px;background-image:url(https://image4.highpin.cn/image/index/sinaIconNew.png);background-repeat:no-repeat;display:inline-block;margin-left:6px;margin-right:6px;overflow:hidden;}
+.bgL{background-position:0 0;}
+.bgR{background-position:0 -24px;}
+.switchBtn{display:inline-block;width:21px;height:20px;cursor:pointer;}
+.cor230{color:#e63c3c;}
+.mar-l30{margin-left:30px;}
+.mar-l20{margin-left:20px;}
+.bor240{border:1px solid #f0f0f0;}
+.bor-b240{border-bottom:1px solid #f0f0f0;}
+.bor-r240{border-right:1px solid #f0f0f0;}
+.markTit{font:16px/36px 'microsoft yahei';}
+.markTit2{font:16px/24px 'microsoft yahei';}
+.height230{height:230px}
+.height160{height:160px}
+.width547{width:547px;}
+.width710{width:710px;}
+.width750{width:750px;}
+.width528{width:528px;}
+.width680{width:680px;}
+.bg242{background-color:#f2f2f5;}
+.bg250{background-color:#fafafa;}
+.subTit{font:14px/32px 'simsun';}
+.padding-b10{padding-bottom:10px;}
+.trianglePoint{width:0px;display:inline-block;height:0px;/*border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #f2f2f5;*/font-size:0px;line-height:0px;border-style: dashed  dashed dotted dashed ;border-width:10px;
+border-color: transparent transparent #f2f2f5 transparent;border-style: dashed dashed solid dashed;margin-top:-10px;}
+.mar-l15{margin-left:15px;}
+.squareImg{overflow:hidden;margin-left:-6px;}
+.squareImg img{display:block;border:none 0;}
+.squareImg li{float:left;margin-left:6px;margin-top:6px;display:inline;overflow:hidden;}
+.Source{color:#808080;line-height:20px;font-size:12px;margin-top:4px;}
+.eachInfo{border-top:1px solid #f0f0f0;margin-top:10px;padding-bottom:6px;}
+.editSina{font-size:14px;line-height:24px;word-wrap: break-word;padding-top:12px; text-indent:2em;}
+.editSina a { text-indent:0;}
+.linkTo{display:inline-block;padding-left:27px;width:54px;line-height:22px;color:#EB7350;font-size:12px;background:url(https://image1.highpin.cn/image/index/sinaIconNew.png) no-repeat -79px 0;text-decoration:none;margin-left:13px;}
+.linkSource{line-height:22px;font-size:12px;padding-top:20px;}
+.width228{width:228px;}
+/*.sinaWordShow{line-height:20px;font-size:12px;color:#282828;}*/
+.sinaWordShow{line-height:20px;font-size:12px;color:#333333; width:210px; line-height: 24px; padding: 10px 18px;}
+.bigV{background:url(https://image2.highpin.cn/image/index/sinaIconNew.png) no-repeat 0 -48px;display:inline-block;width:86px;height:28px;}
+.jobTitle{line-height:18px;font-size:12px;color:#282828;margin-top:4px;}
+.padding-t16{padding-top:16px;}
+.padding-t12{padding-top:12px;}
+.padding-b13{padding-bottom:13px;}
+.focusUl{padding-top:16px;padding-bottom:16px;}
+.focusUl li{width:60px;height:33px;float:left;text-align:center;}
+.focusNum{font:18px/18px Arial;}
+.focusName{font-size:12px;color:#808080;}
+.sinaFavicon{width:98px;height:98px;border:1px solid #e6e6e6;margin:16px auto 0 auto;overflow:hidden;position:absolute;left:50%;margin-left:-50px;background-color:#fff;}
+.sinaFavicon img{display:block;width:98px;height:98px;border:none 0;}
+.sinaFaviconName{font:18px/38px 'microsoft yahei';padding-bottom:6px;text-align:center;color:#282828;position:absolute;top:116px;left:16px;width:196px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;}
+.posRe{position:relative;}
+.FaviconBg{height:80px;background:#fafafa;position:absolute;top:0;left:0;width:228px;}
+/*模板页*/
+.mar-t20 {margin-top:20px;}
+.sinaTemplate img{display:block;}
+.sinaBinding{display:inline-block;width:115px;height:24px;background:url(https://image4.highpin.cn/image/index/sinaIconNew.png) no-repeat 0 -80px;text-decoration:none;margin-left:20px;cursor:pointer;vertical-align: top;*vertical-align: middle;}
+.sinaBindingT {font-size:14px;line-height:24px;}
+.sinaShowT {font:18px/40px 'microsoft yahei';margin-top:26px; }
+.borderLNone {border-left:none;}
+.width587 {width:587px;}
+.weiboRedioStyle {
+    vertical-align:middle;
+    margin-right:8px;
+}
+.Source a {
+    color:#808080;
+}

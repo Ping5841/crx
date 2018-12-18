@@ -1,0 +1,954 @@
+﻿.right-bar-simlarResume .resumeLst .lstItem@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+ visibility:hidden;
+ display:block;
+ font-size:0;
+ content:" ";
+ clear:both;
+ height:0;
+}
+.clearfix {
+ zoom:1;
+}
+.html,body{background:rgb(255,255,255);font-size:12px;font-family: Tahoma, "\5b8b\4f53", Arial, Helvetica, STHeiti;color:rgb(0,0,0);}
+.detail-main{position:relative;background:rgb(255,255,255);color:rgb(0,0,0);margin:0 auto;}
+.detailbox{width:816px;margin:0 auto;background:rgb(255,255,255);position:relative;overflow:hidden;padding-bottom:40px;}
+.detail-outer img{display:block;width:448px;height:15px;margin-left:203px;}
+.img-float{position:absolute;top:-15px;left:0;}
+.detail-em{width:16px;height:16px;background-image:url(https://image1.highpin.cn/Image/Shared/view-resume-images/detail-btn.gif);background-repeat:no-repeat;display:inline-block;vertical-align:middle;}
+.detail-em-small{width:5px;height:7px;background-image:url(https://image2.highpin.cn/Image/Shared/view-resume-images/detail-btn.gif);background-repeat:no-repeat;display:inline-block;
+vertical-align:middle;margin:3px 10px;overflow:hidden;}
+/*图标*/
+.pass{vertical-align:middle;margin:5px;background-position: 0 0;}
+.cross{vertical-align:middle;margin:5px;background-position:0 -18px;}
+.persons{background-position:0 -36px;}
+.phone{background-position:0 -54px;}
+.email{background-position:0 -72px;}
+.simple-info-ul .star{background-position:0 -90px;}
+.black-pointer{background-position:-20px -63px;vertical-align:middle;margin:8px 14px 8px 0;}
+.red-pointer{background-position:-20px -54px;vertical-align:middle;margin:15px 7px 15px 0;}
+.detail-bold{font-weight:bold;}
+.span1{display:inline-block;width:106px;text-align:left;}
+.span2{display:inline-block;width:153px;text-align:left;}
+.span3{display:inline-block;text-align:left;}
+.span4{display:inline-block;width:75px;text-align:left;}
+.resume{width:816px;height:36px;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/detail-red.gif) no-repeat 0 0;}
+.common-style{height:36px;line-height:36px;font-size:14px;float:right;color:rgb(255,255,255);}
+.resume-num{width:220px;margin-left:20px;float:left;display:inline;font-family:"microsoft yahei";}
+.english-resume{float:right;text-decoration:underline;margin-right:20px;line-height:36px;height:36px;font-size:14px;font-family:"microsoft yahei";}
+.simple-info-s{width:632px;padding:10px;_padding-bottom:0;border:1px solid rgb(230,230,230);overflow:hidden;margin-top:14px;position:relative;}
+.simple-info{width:794px;padding:10px;_padding-bottom:0;border:1px solid rgb(230,230,230);overflow:hidden;margin-top:14px;position:relative;}
+.words-red{color:rgb(195,13,35);}
+.detail-score{text-align:left;margin-left:26px;font-family:"microsoft yahei";font-size:14px;}
+.simple-info-ul{float:left;margin-left:20px;width:464px;}
+.simple-wth{width:632px;}
+.simple-wth-s {width:470px;}
+.simple-info-ul li{line-height:24px;height:24px;}
+.address{display:inline-block;width:226px;}
+.head-portrait{width:70px;height:100px;padding:24px;border:1px solid rgb(220,219,219);overflow:hidden;float:left;}
+.head-portrait img{width:70px;height:100px;border:0 none;display:block;}
+.detail-con{width:816px;position:relative;margin-bottom:20px;}
+.contact-way{width:134px;height:30px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/detail-big-btn.png) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:34px;right:122px;}
+.pot-l292{right:292px;}
+.mark-emergency-small { background: url(https://image2.highpin.cn/image/shared/common/emergency.png) no-repeat 0 0; width: 15px; height: 15px; display: inline-block; position: absolute; left: -8px; top: 3px; }
+.mark-3d-small { background: url(https://image4.highpin.cn/image/shared/bg/3d-mark-small-new.png) no-repeat 0 0; width: 22px; height: 25px; display: inline-block; position: absolute; left: 8px; top: 3px; }
+.mark-3d-smaller { background: url(https://image1.highpin.cn/image/shared/bg/3d-mark-smaller.png) no-repeat 0 0; width: 15px; height: 17px; display: inline-block; position: absolute; left: 8px; top: 3px; }
+
+.gray-bg{width:816px;height:317px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/gray-bg.gif) repeat-x 0 0;margin-top:10px;position:absolute;}
+.detail-tabs{width:820px;z-index:100;position:relative;top:0px;left:15px;}
+/*个人简历*/
+/*.content-box ul{margin-left:40px;}*/
+.content-box dd{border-bottom:1px dotted rgb(184,184,184);padding-bottom:30px;}
+.detail-lable{width:130px;display:inline-block;line-height:22px;height:22px;}
+.detail-lists-two{margin-left:80px;}
+.detail-lables{width:130px;float:left;line-height:22px;height:22px;text-align:left;}
+.detail-cons{width:640px;line-height:22px;float:left;}
+.diffent-cons2{width:610px;line-height:22px;margin-left:40px;}
+.certification {background-position:0px -204px; }
+/*.title-bg{width:776px;height:36px;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/title-bg.gif) repeat-x 0 0;position:relative;}
+.title-bg-l{width:34px;height:36px;display:block;position:absolute;left:0;top:0;background:url(../images/search/title1.gif) no-repeat 0 0;}
+.title-bg-r{width:4px;height:36px;display:block;position:absolute;right:0;top:0;background:url(../images/search/title-bg.gif) no-repeat 0 -38px;}*/
+.detail-mar{margin-bottom:10px;}
+.common-title{display:inline-block;line-height:38px;margin-left:34px;font-weight:bold;}
+.p-style{/*line-height:18px;*/white-space:normal; word-wrap:break-word;word-break:break-all;-moz-binding: url('./wordwrap.xml#wordwrap');overflow: hidden;text-align:left;height:auto;}
+.p-wid548{width:548px;}
+.p-wid458{width:458px;}
+.p-wid568{width:568px;}
+.wid-170 {width:170px;}
+.wid-150 {width:150px;}
+.wid-70 {width:70px;}
+.wid-90 {width:90px;}
+.common-span{display:inline-block;text-align:left;}
+.span-left{width:168px;}
+.span-center{width:178px;}
+.span-right{width:200px;}
+.span-one{width:350px;word-wrap: break-word;word-break: break-all;}
+.span-two{width:180px;}
+.span-three{width:200px;}
+.span-four{width:100px;}
+.detail-lists{/*width:690px;*/margin-left:40px;}
+
+/*右边栏*/
+.right-bar{width:185px;position:fixed;/*right:62px;*/top:145px;_position:absolute; _top:expression(130+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+"px");background:rgb(255,255,255);z-index:100;}
+.right-bar-simlarResume { margin-top:10px; width: 184px; border:1px solid #e9e9e9; border-top-width:2px; /*top: 130px;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0; opacity: 0;*/}
+.right-bar-simlarResume .headName { height:38px; background-color:#f0f0f0; font:16px/38px 'microsoft yahei'; color:#333333; border-bottom:1px solid #e9e9e9;text-align: center; }
+.right-bar-simlarResume .resumeLst .splitLine { border-bottom:1px  dotted #b2b2b2; margin:0 12px;}
+.right-bar-simlarResume .resumeLst .lstItem {margin:6px 12px; }
+.right-bar-simlarResume .resumeLst .lstItem .line1 { font:14px/18px 'microsoft yahei'; color:#002878; cursor:pointer; }
+.right-bar-simlarResume .resumeLst .lstItem .line2,
+.right-bar-simlarResume .resumeLst .lstItem .line3 {font:12px/16px 'simsun'; color:#666666; margin-top:2px; }
+.right-bar-simlarResume .resumeLst .lstItem .line2 span { display:inline-block; margin:0 5px; color:#d1d1d1; }
+/*.right-bar-simlarResume .resumeLst .lstItem .line3 { font:12px/16px 'simsun'; color:#666666;margin-top:4px;}*/
+
+.rightBarFixed { position: fixed; _position: absolute; _top: expression(eval(document.documentElement.scrollTop+5)); top: 5; width: 100%;}
+
+html {
+    /* 下面两行是为了解决 IE6 下抖动的 bug */
+    _background-image:url(about:blank);
+    _background-attachment:fixed;
+}
+.right-bar6{height:250px;}
+.right-bar7{height:288px;}
+.bar-top{width:185px; height:5px; /*height:15px;*/background:url(https://image1.highpin.cn/Image/Shared/view-resume-images/bar-top.gif) no-repeat 0 0;}
+.bar-bottom{width:185px;height:7px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/bar-bottom.png) no-repeat 0 0;}
+.bar-right-bg{width:3px;height:100%;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/border-r.png) repeat-y 0 0;position:absolute;right:0;top:0;}
+.bar-con{width:184px;border-left:1px solid rgb(248,248,248);position:relative}
+.bar-con ul{padding-bottom:22px;}
+.bar-con li{width:181px;height:38px;line-height:38px; background:url(https://image1.highpin.cn/Image/Shared/view-resume-images/bar-li-bg1.png) no-repeat 0 0;}
+.bar-con .bar-active{background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/bar-li-bg2.png) no-repeat 0 0;}
+.bar-con .bar-active a{color:rgb(5,6,7);}
+.bar-con li a{text-align:left;color:rgb(98,85,72);text-decoration:none;padding-left:30px;display:block;width:151px;height:38px;line-height:37px;vertical-align:middle;font-size:15px;font-family:"microsoft yahei";}
+.bar-con li a.gray-word{color:rgb(204,204,204);}
+
+
+/*............评价详情和职位推荐..............*/
+
+
+.detail-list-box ul a{color:rgb(40,70,140);text-decoration:underline;}
+.score-one{height:25px;line-height:25px;background:rgb(245,245,245);float:left;border-bottom:1px solid rgb(239,238,231);border-top:1px solid rgb(239,238,231);text-align:center;margin-bottom:4px;font-weight:bold;position:relative;}
+.score-two{min-height:25px;_height:25px;line-height:25px;float:left;text-align:center;padding: 5px 0;}
+.text-over{text-overflow:ellipsis;overflow:hidden;}
+.bor-top{border-top:1px dotted rgb(230,230,230);}
+.bor-bottom{border-bottom:1px dotted rgb(230,230,230);}
+.detail-wid80{width:80px;}
+.detail-wid85{width:85px;}
+.detail-wid87{width:87px;}
+.detail-wid95{width:95px;}
+.detail-wid100{width:100px;}
+.detail-wid125{width:125px;}
+.detail-wid120{width:120px;}
+.detail-wid180{width:180px;}
+.detail-wid385{width:385px;}
+.detail-wid365{width:365px;}
+.detail-wid70{width:70px;}
+.detail-wid72{width:72px;}
+.detail-wid420{width:420px;}
+.detail-wid174{width:174px;}
+.detail-wid65{width:65px;}
+.detail-wid63{width:63px;}
+.detail-wid116{width:118px;}
+.detail-wid548 {width:548px;padding:0px 10px;line-height:18px;}
+.detail-wid510 {width:510px;padding:0px 10px;line-height:18px;}
+.no-remark-tips p{line-height:50px;height:50px;background:#effaff;padding:0 10px;}
+.txt-l {text-align:left;padding:8px 10px;}
+.txt-2 {text-align:left;padding}
+.mar-r10 {margin-right:10px;}
+.mar-l20 {margin-left:20px;}
+
+.content-box .list-p-style{line-height:30px;white-space:normal; word-wrap:break-word;word-break:break-all;-moz-binding: url('./wordwrap.xml#wordwrap');overflow: hidden;width:417px;text-align:left;height:auto;}
+.detail-red{color:rgb(206,9,25);margin:0 4px;}
+
+.detail-mar16{margin-right:16px;}
+.detail-list-box{width:100%;border:1px solid rgb(186,186,186);border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px;padding:4px 3px;margin:0 auto;color:rgb(89,89,89);overflow:hidden;}
+
+.detail-list-box2{width:770px;border:1px solid rgb(186,186,186);border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px;padding:4px 3px;margin:0 auto;color:rgb(89,89,89);overflow:hidden;}
+/*后修改*/
+.content-box{width:774px;min-height:330px;_height:330px;background:rgb(255,255,255);background:rgb(255,255,255);}
+.detail-lables-new{width:90px;float:left;line-height:22px;height:22px;text-align:left;}
+.detail-lables-s{width:70px;display:inline-block;}
+.detail-tips{font-weight:bold;color:rgb(100,100,100);margin:14px 0 10px 0px;}
+.self-assessment-new{line-height:22px;margin-left:40px;overflow: hidden;width:770px;}
+.detail-cons2{width:600px;line-height:22px;float:left;}
+.detail-cons-700{width:700px;line-height:22px;float:left;}
+
+.p-wid600{width:590px;}
+.p-wid624 {width:624px;}
+.p-wid550 {width:550px;}
+.p-wid700{width:700px;}
+.diffent-labels{line-height:26px;height:26px;text-align:left;background:rgb(210,220,230);margin:0px 0 6px 0px;padding-left:20px;color:rgb(100,100,100);font-weight:bold;}
+.v-m{vertical-align:middle;margin:0px 10px 3px 0px;overflow:hidden;}
+.add-pad{padding-left:20px;}
+.detail-lists-three{margin-left:20px;}
+.diffent-cons{width:796px;line-height:22px;padding-left:20px;}
+.intension{background-position:0 -126px;vertical-align:middle;_margin:10px 10px 6px 0;margin-right:4px;}
+.self{background-position:0 -144px;vertical-align:middle;_margin:10px 10px 6px 0;margin-right:3px;}
+.detail-title{width:200px;margin-left:20px;line-height:32px;font-size:14px;font-family: "microsoft yahei";}
+.detail-em-big{width:16px;height:17px;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/detail-btn.gif) no-repeat 0 -107px;display:inline-block;vertical-align:middle;_margin:10px 8px 4px 0;margin-right:2px;}
+.right-bar4{height:170px;}
+/*.right-bar5{height:208px;}*/
+.add-bar-bor{border-right:1px solid rgb(234,234,234);}
+.contact-way-new{width:114px;height:30px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/new-contact-btn114.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:300px;}
+.contact-way-new-s{width:114px;height:30px;background: url(https://image2.highpin.cn/Image/Shared/view-resume-images/new-contact-btn114.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:140px;}
+.contact-way-newlonger{width:132px;height:30px;background: url(https://image4.highpin.cn/Image/Shared/view-resume-images/new-contact-btnlonger.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:300px;}
+
+/*.contact-way-new132{width:132px;height:30px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/new-contact-btn132.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:312px;}*/
+.contact-way-new132{
+    width: 132px;
+    height: 30px;
+    background: url(https://image2.highpin.cn/Image/Shared/view-resume-images/new-contact-btn132.gif) no-repeat 0 0;
+    color: rgb(255,255,255);
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+.detail-tabs-new{width:774px;min-height:500px;}
+.common-title-new{display:inline-block;line-height:28px;font-size:14px;font-family: "microsoft yahei";}
+.title-bg-new{width:814px;height:28px;line-height:28px;background:rgb(240,240,240);border:1px solid rgb(204,204,204);position:relative;}
+.resume-basic{height:38px;border:1px solid rgb(209,209,209);width:774px;background:rgb(240,240,240);padding:0 20px;margin-bottom:14px;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px;}
+.circle-em{display:inline-block;height:24px;width:24px;background-image:url(https://image4.highpin.cn/Image/Shared/view-resume-images/add-detail-ems.png);background-repeat:no-repeat;vertical-align:middle;margin:0 14px 0 6px;}
+.overt{background-position: 0 0;}
+.secret{background-position:0 -26px;}
+.contact-em{width:18px;height:12px;background:url(https://image1.highpin.cn/Image/Shared/view-resume-images/add-detail-ems.png) no-repeat 0 -52px;margin:0 6px;}
+.mar-none{margin-right:0;}
+.detail-score .mar-lnone {margin-left:0;}
+.gray-line{border-bottom:1px dashed rgb(230,230,230);padding:0 0 4px 26px;margin-bottom:4px;}
+
+/*.simple-info-ul .add-line-ht{line-height:36px;height:34px;}*/
+
+.d-name{font-size:14px;font-family:"microsoft yahei";}
+.sim{font-family:SimSun;}
+.label-em{width:16px;height:20px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/label-em.png) no-repeat 0 0;display:inline-block;vertical-align:middle;margin-right:10px;}
+.label-a{display:block;line-height:26px;height:26px;color:rgb(40,70,140);font-weight:bold;margin:24px 0 0 36px;}
+
+.label-box{width:150px;height:174px;margin-left:20px;background:url(../images/search/label.png) no-repeat 0 0;float:left}
+
+.sub-title-bg{width:816px;min-height:30px;_height:30px;line-height:30px;background:rgb(233,244,255);position:relative;margin:4px 0 12px 0;color:rgb(40,40,40);font-weight:bold;}
+
+.sub-title-em{display:inline-block;height:9px;width:9px;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/sub-title-em.png) no-repeat 0 0;position:absolute;left:0;top:0;margin-right:20px;}
+
+.new-border-bottom{border-bottom:1px dotted rgb(184,184,184);padding-bottom:14px;}
+.detail-time{width:190px;display:inline-block;height:100%;margin-left:20px;border-right:1px solid rgb(255,255,255);margin-right:6px;}
+.detail-time-e{width:170px;display:inline-block;height:100%;margin-left:20px;border-right:1px solid rgb(255,255,255);margin-right:6px;}
+.arm-porint{width:22px;height:18px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/red-arm_03.png) no-repeat 0 0;display:inline-block;vertical-align:middle;margin:9px 6px 9px 0;}
+.h-r-border{width:2px;height:25px;background:url(https://image2.highpin.cn/Image/Index/h-r-border.gif) no-repeat 0 0;display:inline-block;position:absolute;right:0;top:0;}
+/*超链接点击效果*/
+.detail-list-box a:link {
+ color: #002878;;/*链接颜色*/
+ text-decoration:underline;
+}
+.detail-list-box a:visited {
+ color: #8c0028;/*已访问过颜色*/
+ text-decoration:underline;
+}
+.detail-list-box a:hover {
+ color: #8c0028;/*鼠标经过颜色*/
+ text-decoration:underline;
+}
+.detail-list-box a:active {
+    color: #8c0028; /*活动链接颜色*/
+    text-decoration: underline;
+}
+
+.c-list-two a:link {
+ color: #002878;/*链接颜色*/
+ text-decoration:underline;
+}
+.c-list-two a:visited {
+ color:#8c0028;/*已访问过颜色*/
+ text-decoration:underline;
+}
+.c-list-two a:hover {
+ color: #8c0028;/*鼠标经过颜色*/
+ text-decoration:underline;
+}
+.c-list-two a:active {
+    color: #8c0028; /*活动链接颜色*/
+    text-decoration: underline;
+}
+
+
+
+
+.add-fl{float:right;}
+.add-float-l{float:left;}
+.public-set{font-size:14px;line-height:26px;margin-top:8px; font-family:"microsoft yahei";text-align:right;}
+.p-r{line-height:12px;text-align:right;font-family:"microsoft yahei";}
+.sub-title-s{line-height:38px; font-size:14px;font-family:"microsoft yahei";float:left;width:550px;}
+.update{float:right;font-size:12px;line-height:38px;font-family:"microsoft yahei";}
+.line22{line-height:22px;}
+
+
+/*后改的子导航*/
+
+.per_bar_cell {
+	width: 140px;
+	color: #646464;
+	font-size: 14px;
+	background: url(https://image4.highpin.cn/Image/Seeker/Index/per_cell_bg-new.gif) repeat-x
+}
+.per_title {
+	width: 930px;
+	height: 37px;
+	margin-left:16px;
+	overflow: hidden;
+}
+.per_title_detail {
+	width: 816px;
+	height: 37px;
+	overflow: hidden;
+}
+.per_t_line {
+	width: 1px;
+	height: 33px;
+	margin-top: 4px;
+	background-color: #cccccc;
+	float: left;
+}
+.per_bar_detail {
+	width:814px;
+	height: 37px;
+	background: url(https://image1.highpin.cn/Image/Seeker/Index/per_bar_bg-new.gif) repeat-x;
+	float: left;
+}
+.per_bar {
+	width: 928px;
+	height: 37px;
+	background: url(https://image2.highpin.cn/Image/Seeker/Index/per_bar_bg-new.gif) repeat-x;
+	float: left;
+}
+
+.per_bar_detail div {
+	height: 37px;
+	float: left;
+	line-height: 40px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration:none;
+}
+.per_bar_detail a {
+	text-decoration:none;
+}
+.per_bar div {
+	height: 37px;
+	float: left;
+	line-height: 40px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px
+}
+.per_bar_cell_160 {
+	width: 160px;
+	color:rgb(100,100,100);
+	font-size: 14px;
+	background: url(https://image4.highpin.cn/Image/Seeker/Index/per_cell_bg_160-new.gif)
+}
+.per_bar_cell_160 a{color:rgb(100,100,100);}
+
+.per_bar_cell_checked {
+	width: 140px;
+	background: url(https://image1.highpin.cn/Image/Seeker/Index/per_cell_bg_check.gif) no-repeat;
+	color: #ce0919;
+}
+.per_bar_cell {
+	width: 140px;
+	color: #646464;
+	font-size: 14px;
+	background: url(https://image2.highpin.cn/Image/Seeker/Index/per_cell_bg-new.gif) repeat-x
+}
+.per_bar_cell a{color:rgb(100,100,100);}
+.per_bar_cell_checked_160 {
+	width: 160px;
+	background: url(https://image4.highpin.cn/Image/Seeker/Index/per_cell_bg_check_160.gif) no-repeat;
+}
+.per_bar_cell_checked_160 a{color:rgb(206,9,25);}
+
+.per_bar_cell_checked a{color:rgb(206,9,25);}
+.nav-num{color:rgb(40,70,140);}
+
+.title-em {width: 20px;height: 20px;background-image: url(https://image1.highpin.cn/Image/Shared/view-resume-images/preview-btn.gif);background-repeat: no-repeat;display: inline-block;vertical-align: middle;margin:0 14px 0 18px;}
+.bag {background-position: 0 -88px;}
+.card {background-position: 0 -108px;}
+.book {background-position: 0 -129px;}
+.blackboard {background-position: 0 -66px;}
+.computer {background-position: 0 -150px;}
+.other {background-position: 0 -172px;}
+.mar-t10{margin-top:10px}
+
+.add-con-bor{border-top:1px dotted rgb(184,184,184);}
+.add-con-bor:nth-child(1){border-top:none}
+
+
+
+
+/*后添加无推荐企业小圆点*/
+.shielding {
+display:inline-block;height:16px;width:11px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/shielding.gif) no-repeat  0 0;vertical-align:top;margin:4px 4px 0 0;
+}
+.add-span-s{
+line-height:22px;display:inline-block;width:470px;
+}
+
+.c-list-one {height: 32px;line-height: 32px;background: url(https://image4.highpin.cn/Image/Seeker/Index/c-nav-bg.gif) repeat-x 0 0;float: left;text-align: center;font-weight: bold;color: rgb(100,100,100);position: relative;}
+.c-list-two {min-height:25px;_height:25px;line-height: 25px;float: left;text-align: center;padding: 5px 0;position: relative;}
+.c-box2 {
+width: 814px;
+border: 1px solid rgb(204,204,204);
+border-top: none;
+margin: 0 auto;
+padding-bottom: 6px;
+}
+.c-r-border {
+width: 2px;
+height: 32px;
+background: url(https://image1.highpin.cn/Image/Seeker/ResumeView/r-border.gif) no-repeat 0 0;
+position: absolute;
+right: 0;
+top: 0;
+}
+/*添加标签*/
+.detail-tag {width:152px;height:173px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/detail-tag-new.jpg) no-repeat  0 0;overflow:hidden;position:absolute;right:1px;bottom:0px}
+.tag-mark {color:rgb(40,70,140);display:inline-block;width:90px;height:28px;line-height:28px;background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/tag-mark.jpg) no-repeat  left center;text-align:center;position:absolute;top:58px;left:40px;}
+.tag-p {line-height:28px;width:136px;margin:0 auto;white-space:normal; word-wrap:break-word;word-break:break-all;-moz-binding: url('./wordwrap.xml#wordwrap');overflow: hidden}
+.tag-mar52 {margin-top:24px;position:relative;}
+.tag-editor{background:url(https://image1.highpin.cn/Image/Shared/view-resume-images/tag-modify.png) no-repeat left center;display:inline-block;height:14px;position:absolute;right:10px;top:8px;padding-left:20px;color:rgb(40,70,140);}
+.h-p {white-space: normal;word-wrap: break-word;word-break: break-all;overflow: hidden;}
+
+/*highlight*/
+em.highlight{color: #F00;}
+
+.detail-cons-e {width:500px;float:left;line-height:22px;text-align:left;}
+.detail-lables-e {float:left;line-height:22px;height:22px;text-align:left;}
+.mar-t4 {margin-top:4px;}
+.mar-t14 {margin-top:14px;}
+.skill_e{width:430px; word-wrap: break-word;}
+.detail-cons-e2{float:left;line-height:22px;text-align:left;}
+
+.w-w {word-wrap:break-word}
+.w-b {word-break:break-all}
+.add-remark-btn {display:inline-block;width:96px;height:26px;background:url(https://image2.highpin.cn/Image/Shared/view-resume-images/add-remark.png) no-repeat 0 0;font-size:14xp;color:#ffffff;font-family:"microsoft yahei";line-height:26px;cursor:pointer;padding-left:12px;float:left;}
+.add-remark-box {margin:14px 0 10px 0px;}
+.add-remark-box span {font-weight: bold;color: rgb(100,100,100);padding-left:38px;display:inline-block;line-height:26px;float:left;}
+
+.refuse-detail{min-height: 25px;_height: 25px;line-height: 25px;text-align: left;padding: 5px 14px;color: #646464;}
+
+/*添加3d简历标志 20140528*/
+.mark-3d{background:url(https://image4.highpin.cn/image/shared/bg/3d-mark.gif) no-repeat 0 0;width:32px;height:35px;display:inline-block;position:absolute;left:6px;top:3px;}
+
+/*.recommend-new-btn-l{width:114px;height:30px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/new-contact-btn114.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:300px;}*/
+/*.recommend-new-btn-r{width:114px;height:30px;background: url(https://image2.highpin.cn/Image/Shared/view-resume-images/new-contact-btn114.gif) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;position:absolute;bottom:42px;right:168px;}*/
+
+#recommand-btn-area{
+    /*background-color:yellow;*/
+    width:450px; height:40px; float:left; position:absolute; left:360px; bottom:26px;
+}
+
+.recommend-new-btn-l{
+    width: 89px;
+    height: 30px;
+    background: url(https://image4.highpin.cn/Image/Shared/view-resume-images/recommended_posts.png) no-repeat 0 0;
+    line-height: 30px;
+    cursor: pointer;
+    float: left;
+    margin-top: 6px;
+    margin-left: 12px;
+   }
+.recommend-new-btn-r
+{
+    width: 89px;
+    height: 30px;
+    background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/download_resume.png) no-repeat 0 0;
+    line-height: 30px;
+    cursor: pointer;
+    float: left;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.recommend-talk-with-he
+{
+    width: 89px;
+    height: 30px;
+    background: url(https://image2.highpin.cn/Image/Shared/chat/chat-with-ta-small-width.gif) no-repeat 0 0;
+    line-height: 30px;
+    cursor: pointer;
+    float: left;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+
+.FreeBtnsBg {width:140px;height:30px;background: url(https://image4.highpin.cn/Image/Shared/view-resume-images/freeBtnsBg.png) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;padding-left:40px;}
+.FreeBtnsPosL {position:absolute;bottom:42px;right:300px;}
+.FreeBtnsPosR {position:absolute;bottom:42px;right:150px;}
+
+
+/*简历id列添加标签*/
+.emResume{background-image:url(https://image1.highpin.cn/image/shared/layermode/bg/AddtionMarkNew.png);background-repeat:no-repeat;display:inline-block;width:20px;height:26px;vertical-align:middle;}
+.emResume1{background-position:0 0;}
+.emResume2{background-position:0 -32px;}
+.emResume3{background-position:0 -60px;}
+.emResume4{background-position:0 -88px;}
+.emResume5{background-position:0 -114px;}
+.emResume6{background-position:0 -142px;}
+.emResume7{background-position:0 -170px;}
+
+.mar-l4 {margin-left:4px;}
+
+.resumeMark {margin-top:10px;margin-left:130px;}
+.resumeMark li {width:190px;height:24px;margin-bottom:10px;float:left;overflow:hidden;}
+.mark-l {float:left;height:24px;width:23px;line-height:24px;background:url(https://image2.highpin.cn/Image/Seeker/Index/resumeMark.png) no-repeat 0 0;font-size:12px;color:#fff;text-align:center;}
+.mark-r {float:left;height:22px;width: 132px;border:1px solid #aaaaaa;border-left:none;padding:0 6px;background-color:#fff;line-height:22px;font-size:12px;color:#414141;word-spacing:normal;border-radius:0 3px 3px 0;-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;-ms-border-radius:0 3px 3px 0;o-border-radius:0 3px 3px 0;overflow: hidden;}
+.resumeMarkTitle {font-size:12px;padding-top:20px;line-height:12px;border-top:1px dotted #000;margin-top:12px;}
+.resumeMarkTitle b {display:inline-block;width:150px;padding-right:10px;text-align:right;}
+.ResumeMarkBg{ background:url(https://image4.highpin.cn/Image/Shared/view-resume-images/resumeMarkEmak.png) no-repeat center left;padding-left: 20px;position: absolute;left: 0;top: 10px;}
+.addBottompad{position:relative;padding-top: 20px;}
+.width620{ width: 620px;}
+.detail-lists .marNone{ margin-top: 0px;}
+/*B端上线统一更换logo*/
+.website-logo{float:left;}
+.logo-img{display:block;border:none;width:300px;height:54px;margin-top:10px;margin-bottom:12px;}
+
+.InviteBtnsNew {width:182px;height:30px;background: url(https://image1.highpin.cn/Image/Shared/view-resume-images/InviteBtnsNew1.png?v=20170904) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;padding-left:50px;}
+.InviteBtnsNewPos {position: absolute;bottom: 42px;right: 168px;}
+
+
+.DownBtnsNew {width:124px;height:30px;background: url(https://image2.highpin.cn/Image/Shared/view-resume-images/DownBtnsNew1.png?v=20170904) no-repeat 0 0;color:rgb(255,255,255);font-family:"microsoft yahei";font-size:14px;line-height:30px;cursor:pointer;padding-left:50px;}
+.DownBtnsNewPos {position: absolute;bottom: 42px;right: 166px;}
+
+
+/*简历详情查看评价*/
+.plr_6{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.mt_5 {margin-top: 5px;}
+.mt_10 {margin-top:10px;}
+.mt_14 {margin-top:14px;}
+.mt_18 {margin-top:18px;}
+.mb_0 {margin-bottom:0;}
+.pb_10 {padding-bottom:10px;}
+.bb_gery2 {border-bottom: 2px dotted #bbb;}
+
+.leftAreaSide {width:72px;float:left;}
+.rightAreaSide {width:730px;float:left;}
+.font0 {
+    font-size: 0;
+}
+.font12 {
+    font-size:12px;
+}
+.font12B {
+    font-family:SimSun;
+    font-size:12px;
+    color:#333;
+}
+.leftAreaSide span{
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.rightAreaSide ul {
+    font-size:0;
+}
+.rightAreaSide .labelOutBox {
+    margin:0 10px 10px 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.rightAreaSide .labelOutBox a{
+    float: left;
+    height: 24px;
+    width: 23px;
+    line-height: 24px;
+   /* background: url(https://image4.highpin.cn/Image/Seeker/Index/resumeMark.png) no-repeat 0 0; */
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    cursor:pointer;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #1c91d5;
+    border-radius: 2px 0 0 2px;
+    text-decoration:none;
+}
+.rightAreaSide .labelOutBox a.redColor{
+    background:#fa5955;
+}
+.rightAreaSide .labelOutBox .noPoint {
+    cursor:default;
+}
+.rightAreaSide .labelOutBox .labelInBox {
+    float:left;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    border:1px solid #d2d2d2;
+    border-width:1px 1px 1px 0;
+    height:22px;
+    line-height:22px;
+    padding:0 6px;
+    background:#f0f0f0;
+    font-size:12px;
+    color:#333;
+    font-family:SimSun;
+    border-radius: 0 2px 2px 0;
+}
+
+.evaluateLists li {
+    padding-top:16px;
+    padding-bottom:10px;
+    border-bottom: 1px dotted #b8b8b8;
+}
+.evaluateLists .lh24 {
+    line-height:24px;
+    height:24px;
+}
+.evaluateLists .textP {
+    padding-bottom:8px;
+}
+.evaluateLists .textP span {
+    display:inline-block;
+}
+.evaluateLists .textP a {
+    display:inline-block;
+}
+.evaluateLists .textP a:visited{
+    color: #8c0028;
+    text-decoration: underline;
+}    
+.evaluateLists .textP a:link{
+    color: #002878;
+    text-decoration: underline;
+}
+.w132 {width:132px;}
+.lh_18 {line-height:18px;}
+.pb_2 {padding-bottom:2px;}
+
+.MarkP{word-break: break-all;word-wrap: break-word;}
+.MarkP span{
+    background-color:#eeeeee;
+    border:1px solid #d2d2d2;
+    color:#646464;
+    margin-right:10px;
+    font-size:12px;
+    display:inline-block;
+    float:left;
+    *float:none;
+    font-family:simsun;
+    padding:0px 4px;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    -moz-border-radius:2px;
+    line-height:18px;
+    margin-top:6px;}
+
+.inlineB {display:inline-block;}
+.floatNo{float:none;}
+.pt_28 {padding-top:28px}
+.pb_8 {padding-bottom:8px;}
+.pl_40 {padding-left:40px;}
+.w68 {width:68px;}
+
+
+/*追评样式*/
+.selectTopText {
+    padding-top:16px;
+    height:16px;
+    line-height:16px;
+    *height:auto;
+    *line-height:23px;
+}
+.pr_30 {padding-right:30px;*padding-right:24px;}
+.selectTopText input{
+    float: left;
+    margin: 3px 4px 0 0;
+}
+.selectTopText label{
+    position:relative;
+    float:left;
+    color: #646464;
+    font-weight: bold;
+}
+.selectTopText .numTip{
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    line-height: 14px;
+    background: url(https://image1.highpin.cn/Image/Seeker/Index/numTip_bg.png) no-repeat 0 0;
+    left: 45px;
+    top: -10px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3px;
+    font-family: simsun;
+}
+.selectTopText .warpSpan{
+    position:relative;
+    display:inline-block;
+}
+.selectTopText .ml_5 {
+    margin-left:6px;
+}
+.lh_20 {line-height:20px;}
+.w_105 {width:105px;}
+.w_450 {width:450px;}
+.w_725 {width:725px;}
+.w_850 {width:850px;}
+.pb_12 {padding-bottom:12px;}
+.pt_5 {padding-top:5px;}
+.pb_6 {padding-bottom: 6px;}
+ .mt_6x {margin-top: -6px;}
+.wid_90 {width:90px;_width:92px;}
+.wid_92 {width:92px;_width:92px;}
+.wid_712 {width:712px;_width:710px;}
+.pb_13 {padding-bottom:13px;}
+.pr_14{padding-right: 14px;}
+.ml_12 { margin-left: 12px;}
+.ml_102 { margin-left: 102px;}
+
+
+/*评价弹出框改版*/
+.evaluate-title_new {
+    position:relative;
+    width: auto;
+    height: auto;
+    padding: 7px 10px;
+    background: #dff3fd;
+    border: 0;
+    font: 12px/18px SimSun;
+}
+.evaluate-title_new .queIcon{
+    display: inline-block;
+    background: url(https://image2.highpin.cn/Image/Seeker/Index/my_index_c.gif) no-repeat 0 -352px;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 2px;
+    *top:0;
+    left: 5px;
+}
+.evaluate-title_new .queBox{
+    position:absolute;
+    top:50px;
+    right:-18px;
+    width:214px;
+    height:75px;
+    background:#fff;
+    border:1px solid #c6e4f5;
+}
+.evaluate-title_new .queBox h5 {
+    font: bold 12px/24px SimSun;
+    padding: 0 10px;
+    color: #000;
+    margin-top: 5px;
+}
+.evaluate-title_new .queBox p{
+    font:12px/18px SimSun;
+    padding:0 10px;
+    color:#333;
+}
+.evaluate-title_new .queBox .topArrow {
+    position:absolute;
+    top: -7px;
+    right: 98px;
+    width: 10px;
+	height: 7px;
+    background: url('https://image4.highpin.cn/Image/Seeker/Index/evaluateImgs.gif') no-repeat -16px -1px;
+}
+.evaluate-area_new {
+    width: 450px;
+    height: 92px;
+    padding: 7px 4px;
+    border: 1px solid #7F9DB9;
+    color: #999;
+    overflow: auto;
+    font-size: 12px;
+}
+.redColor {
+    color: #CE0919;
+}
+
+/*简历详情页推荐入口*/
+.r_30 {right:30px;}
+.recommendTipBox{
+    display:block;
+    position:absolute;
+    bottom: 42px;
+    right: 180px;
+    padding:0 46px 0 16px;
+    height:28px;
+    border:1px solid #e43b36 ;
+    font:14px/28px SimSun;
+    color:#e73b37;
+    border-radius:2px;
+    background:url(https://image1.highpin.cn/Image/Shared/view-resume-images/red_arrow_icon.png) no-repeat 198px center;
+    z-index:100;
+}
+/*推荐萝卜*/
+.underLine { text-decoration: underline;}
+.simple-info .radish_btn {
+    float: left;
+    display: inline-block;
+    width: 89px;
+    height: 30px;
+    margin: 6px 0 0 12px;
+    background: url(https://image2.highpin.cn/Image/Shared/view-resume-images/red_btn.png) no-repeat 0 0;
+    font: 14px/30px microsoft yahei;
+    color: rgb(255,255,255);
+    text-align: center;
+    cursor: pointer;
+}
+.baseMessage_wrap {
+    position: relative;
+    width: 400px;
+    height: auto;
+    padding: 14px 10px;
+    background: #eaf7fe;
+}
+.baseMessage_wrap .left_arrow {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    border-top: 7px solid #fff;
+    border-right: 7px solid #d1ebf9;
+    border-bottom: 7px solid #d1ebf9;
+    border-left: 7px solid #fff;
+}
+.baseMessage_wrap>h1 {
+    font: 14px/22px microsoft yahei;
+    font-weight: bold;
+    color: #333;
+}
+.baseMessage_wrap > p {
+    font: 12px/22px simsun;
+    color: #666;
+}
+.commonLayerContainer .tip_msg {
+    font: 12px/52px simsun;
+    color: #333;
+    text-align: center; 
+}
+.commonLayerContainer .tip_msg > em {
+    font: bold 14px/52px simsun;
+    color: #ce0919;
+}
+.commonLayerContainer .radishAgreenment_wrap {
+    height: 12px;
+    margin-top: 10px;
+    font: 12px/12px simsun;
+    color: #666;
+}
+.commonLayerContainer .radishAgreenment_wrap > input {
+    height: 12px;
+    width: 12px;
+    margin:0 5px 0 10px;
+    vertical-align: bottom;
+}
+.commonLayerContainer .radishAgreenment_wrap > a {
+    color: #002878;
+    text-decoration: underline;
+}
+
+/*保面试确认信息*/
+.interviewMsg_wrap {
+    padding: 0 10px;
+}
+.interviewMsg_wrap > .title {
+    font: bold 12px/52px simsun;
+    color: #333;
+}
+.interviewMsg_wrap .isAgreeInterview {
+    height: 12px;
+    font: 12px/12px simsun;
+    color: #333;
+}
+.interviewMsg_wrap .isAgreeInterview > input {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.jobStatus_wrap > span {
+    display: inline-block;
+    font: 12px/22px simsun;
+}
+.jobStatus_wrap > .left{
+    width: 103px;
+    vertical-align: top;
+}
+.jobStatus_wrap > .right{
+    width: 290px;
+}
+.jobStatus_wrap select {
+    height: 24px;
+    width: 62px;
+    margin: 0 5px;
+    font: 12px/22px simsun;
+    text-align: center;
+    vertical-align: middle;
+}
+.salary_wrap input {
+    width: 63px;
+    height: 22px;
+    margin: 0 5px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+}
+.errorTips {
+    display: none;
+}
+
+.pushRadish_success {
+    width: 130px;
+    height: 30px;
+    padding-left: 40px;
+    margin: 0 auto;
+    background: url("https://image2.highpin.cn/image/shared/layermode/image/succ_icon_layer_02.png") no-repeat left center;
+    font: 16px/30px Microsoft Yahei;
+    color: #468c41;
+    text-align: center;
+}
+
+/*.time_font {font-family:tahoma,helvetica,arial,'bitstream vera sans','\5b8b\4f53',sans-serif,SimSun}*/
+.time_font {font-family:SimSun;}
+
+/*简历详情页新增萝卜派保面试引导*/
+.colorfff2ca {color:#fff2ca}
+.rightBar_radishPieGuide {
+    position: fixed;
+    top:0;
+    display:inline-block;
+    width:180px;
+    height:194px;
+    background:url(https://image2.highpin.cn/image/Hunter/guide/guide_radishBg.png) no-repeat center;
+}
+.rightBar_radishPieGuide .guideTxt{
+    padding:25px 9px 16px 14px;
+    font:14px/24px microsoft yahei;
+    color:#a86f00;
+}
+.rightBar_radishPieGuide .guideBtn{
+    width:118px;
+    font:14px/28px microsoft yahei;
+    color:#a86f00;
+    background:#fff2ca;
+    text-align:center;
+    border-radius:2px;
+    cursor:pointer;
+}
